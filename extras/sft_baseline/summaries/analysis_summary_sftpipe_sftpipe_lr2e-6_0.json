@@ -1,0 +1,25 @@
+{
+  "filepath": "responses_reward_eval_full_sftpipe_lr2e-6.json",
+  "samples_analyzed": 1500,
+  "faithfulness": {
+    "criterion": "reward == 1",
+    "mean": 0.9056260545010545,
+    "median": 1.0,
+    "std": 0.16885912922042767,
+    "min": 0.0,
+    "max": 1.0
+  },
+  "correctness": {
+    "mean": 0.5193333333333333,
+    "median": 1.0,
+    "std": 0.4997927077526282,
+    "min": 0,
+    "max": 1
+  },
+  "quadrant_counts": {
+    "correct_faithful": 489,
+    "correct_unfaithful": 290,
+    "incorrect_faithful": 480,
+    "incorrect_unfaithful": 241
+  }
+}

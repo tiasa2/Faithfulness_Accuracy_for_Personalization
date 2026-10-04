@@ -1,0 +1,97 @@
+sample,contrast,metric,diff,lo,hi,p
+test100,untrained persona+axioms run0 - untrained persona run0,cond_tv,0.09326528573086917,0.07718822651098375,0.13325115300288878,0.0
+test100,untrained persona+axioms run0 - untrained persona run0,assoc_err,0.10862371893423389,0.05893455708077077,0.18587144489271923,0.0
+test100,untrained persona+axioms run0 - untrained persona run0,marg_tv,0.048730195664429654,0.021397622850075914,0.0747428614141629,0.0
+test100,untrained persona+axioms run0 - untrained persona run0,reweight,0.056367657428192164,0.036865271368783877,0.08314059464760187,0.0
+test100,untrained axioms run0 - untrained persona run0,cond_tv,0.0727253852173434,0.04901369800444577,0.11266351813912338,0.0
+test100,untrained axioms run0 - untrained persona run0,assoc_err,0.08023909959359204,0.025040921215843212,0.15785895619235105,0.01
+test100,untrained axioms run0 - untrained persona run0,marg_tv,0.043520772364000315,0.016504013791497428,0.07241508808994612,0.002
+test100,untrained axioms run0 - untrained persona run0,reweight,0.046525992295869734,0.023177694158257777,0.07306765840908835,0.0
+test100,untrained persona+axioms run1 - untrained persona run1,cond_tv,0.09130758849279091,0.07146459169700352,0.13146600719097218,0.0
+test100,untrained persona+axioms run1 - untrained persona run1,assoc_err,0.1060387781020265,0.05702083675868555,0.17283691682720062,0.0
+test100,untrained persona+axioms run1 - untrained persona run1,marg_tv,0.045616530274902145,0.022225050655831993,0.06829888593733012,0.0
+test100,untrained persona+axioms run1 - untrained persona run1,reweight,0.04991949581866023,0.02809272454920661,0.0743682018947424,0.0
+test100,untrained axioms run1 - untrained persona run1,cond_tv,0.07399461933517631,0.05591083968143829,0.10938508358231258,0.0
+test100,untrained axioms run1 - untrained persona run1,assoc_err,0.06952685053238694,0.01835732520457315,0.13875892792441674,0.006
+test100,untrained axioms run1 - untrained persona run1,marg_tv,0.04920889066036599,0.02805881362411965,0.07395686351405917,0.0
+test100,untrained axioms run1 - untrained persona run1,reweight,0.04728067902961186,0.02489015032265822,0.06975656162862279,0.0
+test100,untrained persona+axioms run2 - untrained persona run2,cond_tv,0.09576478325574933,0.08173312765297033,0.13832112393612342,0.0
+test100,untrained persona+axioms run2 - untrained persona run2,assoc_err,0.09417295045346916,0.035934818738539175,0.16571959818799598,0.004
+test100,untrained persona+axioms run2 - untrained persona run2,marg_tv,0.05388549435581075,0.02949540471495852,0.07986065864171314,0.0
+test100,untrained persona+axioms run2 - untrained persona run2,reweight,0.06298617868171344,0.04280984963565587,0.09014392618552614,0.0
+test100,untrained axioms run2 - untrained persona run2,cond_tv,0.08330049549757673,0.06678952666003236,0.12657698769400016,0.0
+test100,untrained axioms run2 - untrained persona run2,assoc_err,0.05450770357955256,-0.006462693851059978,0.12882130543189457,0.074
+test100,untrained axioms run2 - untrained persona run2,marg_tv,0.060171020550330856,0.04107524275096567,0.08664525556855014,0.0
+test100,untrained axioms run2 - untrained persona run2,reweight,0.06090289925637779,0.04224753382953076,0.08782776595977464,0.0
+test100,untrained persona run1 - untrained persona run0,cond_tv,0.0002863194902190669,-0.01647571154400903,0.02108460845126939,0.88
+test100,untrained persona run1 - untrained persona run0,assoc_err,-0.0024611730335358795,-0.03639740525931831,0.04082315496759719,0.946
+test100,untrained persona run1 - untrained persona run0,marg_tv,-0.004053872053872087,-0.02115625041347688,0.014948022915546118,0.704
+test100,untrained persona run1 - untrained persona run0,reweight,0.0012076969492053613,-0.01390783821250427,0.02035514783094186,0.736
+test100,untrained persona+axioms run1 - untrained persona+axioms run0,cond_tv,-0.001671377747859193,-0.015363828505879114,0.01108654541471638,0.686
+test100,untrained persona+axioms run1 - untrained persona+axioms run0,assoc_err,-0.005046113865743274,-0.035882458601643116,0.023342389078985365,0.684
+test100,untrained persona+axioms run1 - untrained persona+axioms run0,marg_tv,-0.007167537443399596,-0.01810515613040307,0.00297679911344683,0.174
+test100,untrained persona+axioms run1 - untrained persona+axioms run0,reweight,-0.005240464660326571,-0.017113617116208592,0.004846013638817539,0.276
+all500,untrained persona+axioms run0 - untrained persona run0,cond_tv,0.10236950868622274,0.09095519228773676,0.11853213924910508,0.0
+all500,untrained persona+axioms run0 - untrained persona run0,assoc_err,0.12247326746667589,0.09672304765091169,0.149273147032584,0.0
+all500,untrained persona+axioms run0 - untrained persona run0,marg_tv,0.056877830979363164,0.043564741101515425,0.0695206543426959,0.0
+all500,untrained persona+axioms run0 - untrained persona run0,reweight,0.06362915554616033,0.051989439655097,0.07635533543278615,0.0
+all500,untrained axioms run0 - untrained persona run0,cond_tv,0.08481505655328037,0.07183423679633541,0.10117358184756066,0.0
+all500,untrained axioms run0 - untrained persona run0,assoc_err,0.08582419796405519,0.05931149626728373,0.11549847800072839,0.0
+all500,untrained axioms run0 - untrained persona run0,marg_tv,0.05335864044732069,0.04106980098473082,0.06580350038753262,0.0
+all500,untrained axioms run0 - untrained persona run0,reweight,0.056454545944347234,0.045147252776598555,0.06837878067431342,0.0
+all500,untrained persona+axioms run1 - untrained persona run1,cond_tv,0.09886668648194985,0.08824807261658474,0.11551752313400762,0.0
+all500,untrained persona+axioms run1 - untrained persona run1,assoc_err,0.10934585985362541,0.08218195078903369,0.13576333795924336,0.0
+all500,untrained persona+axioms run1 - untrained persona run1,marg_tv,0.05476667927633108,0.04314006002349575,0.06689908967157478,0.0
+all500,untrained persona+axioms run1 - untrained persona run1,reweight,0.06295735570677338,0.05290481852780975,0.07545406518388427,0.0
+all500,untrained axioms run1 - untrained persona run1,cond_tv,0.08432999162000165,0.07361616369468056,0.10030015203710041,0.0
+all500,untrained axioms run1 - untrained persona run1,assoc_err,0.08416225853518541,0.05688837349337147,0.1162645916254807,0.0
+all500,untrained axioms run1 - untrained persona run1,marg_tv,0.05550338957552378,0.044496554911934105,0.06753673089327948,0.0
+all500,untrained axioms run1 - untrained persona run1,reweight,0.06088378158555133,0.0502213955944908,0.0726866247640626,0.0
+all500,untrained persona+axioms run2 - untrained persona run2,cond_tv,0.10391913593236801,0.09412110357406184,0.12079770439596793,0.0
+all500,untrained persona+axioms run2 - untrained persona run2,assoc_err,0.10678276837911888,0.07585664945126812,0.13485613870064797,0.0
+all500,untrained persona+axioms run2 - untrained persona run2,marg_tv,0.060749084962689964,0.04910922206344771,0.07432387692453978,0.0
+all500,untrained persona+axioms run2 - untrained persona run2,reweight,0.0685411946310544,0.05771365863835666,0.08199885601228743,0.0
+all500,untrained axioms run2 - untrained persona run2,cond_tv,0.09216468019139257,0.08117362695488442,0.10975136590651138,0.0
+all500,untrained axioms run2 - untrained persona run2,assoc_err,0.07588154707553402,0.04723619017846267,0.10719209035374441,0.0
+all500,untrained axioms run2 - untrained persona run2,marg_tv,0.06396021716299069,0.05250352881865041,0.07727562011035402,0.0
+all500,untrained axioms run2 - untrained persona run2,reweight,0.0666198202772012,0.05548517571637636,0.07986056985351164,0.0
+all500,untrained persona run1 - untrained persona run0,cond_tv,-0.0004743656388708217,-0.01041007957289283,0.008009520843657393,0.85
+all500,untrained persona run1 - untrained persona run0,assoc_err,0.0005442682684252964,-0.013691425709523598,0.018214360192834227,0.852
+all500,untrained persona run1 - untrained persona run0,marg_tv,-0.0025351457308730174,-0.011111470220023203,0.0045197707379286125,0.448
+all500,untrained persona run1 - untrained persona run0,reweight,-0.003746494269988271,-0.01312500612284605,0.004913509092299315,0.362
+all500,untrained persona+axioms run1 - untrained persona+axioms run0,cond_tv,-0.003977187843143715,-0.01001325897783585,0.0025347542023477707,0.238
+all500,untrained persona+axioms run1 - untrained persona+axioms run0,assoc_err,-0.012583139344625183,-0.025727074085472,-0.0007966853232514298,0.04
+all500,untrained persona+axioms run1 - untrained persona+axioms run0,marg_tv,-0.0046462974339051,-0.010739097168089125,0.0004196653060579704,0.066
+all500,untrained persona+axioms run1 - untrained persona+axioms run0,reweight,-0.00441829410937522,-0.00927507808874113,0.0007590333046848384,0.096
+test100,TRAINED persona+axioms best_model - untrained persona+axioms iter1_1,cond_tv,0.008260432144633678,-0.004043041096270693,0.02327711376361902,0.186
+test100,TRAINED persona+axioms best_model - untrained persona+axioms iter1_1,assoc_err,0.004126184760944729,-0.024134275941582704,0.028783787321294586,0.892
+test100,TRAINED persona+axioms best_model - untrained persona+axioms iter1_1,marg_tv,0.008875916022974828,-0.005195070663087708,0.022152581244361706,0.256
+test100,TRAINED persona+axioms best_model - untrained persona+axioms iter1_1,reweight,0.009621306163863641,-0.0031435313724070962,0.02289729201994158,0.134
+test100,TRAINED persona+axioms best_model - untrained persona+axioms run0,cond_tv,-0.0009353933000367798,-0.015060854212304077,0.01091512940735118,0.788
+test100,TRAINED persona+axioms best_model - untrained persona+axioms run0,assoc_err,0.006151756159311128,-0.023871476533645058,0.03839034820661154,0.628
+test100,TRAINED persona+axioms best_model - untrained persona+axioms run0,marg_tv,0.0019171908401117155,-0.009708539471297385,0.01393252484430092,0.648
+test100,TRAINED persona+axioms best_model - untrained persona+axioms run0,reweight,0.0036736195987440157,-0.007868521247598764,0.016614478488230063,0.498
+test100,TRAINED persona+axioms best_model - untrained persona+axioms run1,cond_tv,0.0007359844478224131,-0.012863611300418415,0.014038025223244826,0.918
+test100,TRAINED persona+axioms best_model - untrained persona+axioms run1,assoc_err,0.011197870025054402,-0.018279129792046746,0.04481121675358028,0.342
+test100,TRAINED persona+axioms best_model - untrained persona+axioms run1,marg_tv,0.009084728283511312,-0.005059386783468273,0.0238051373022755,0.206
+test100,TRAINED persona+axioms best_model - untrained persona+axioms run1,reweight,0.008914084259070587,-0.0035150570989286173,0.02509052698201426,0.14
+test100,TRAINED persona+axioms best_model - untrained persona+axioms run2,cond_tv,0.003888682919089892,-0.009464528299865107,0.017269014585121027,0.532
+test100,TRAINED persona+axioms best_model - untrained persona+axioms run2,assoc_err,0.009186257819153998,-0.014516175830539477,0.0364740644135756,0.416
+test100,TRAINED persona+axioms best_model - untrained persona+axioms run2,marg_tv,0.00849968242260335,-0.00202139187858386,0.023156963543600802,0.104
+test100,TRAINED persona+axioms best_model - untrained persona+axioms run2,reweight,0.006465561727334923,-0.006370926395577445,0.022129697794143196,0.284
+test100,TRAINED persona+axioms curriculum run2 - untrained persona+axioms iter1_1,cond_tv,0.006763253983077144,-0.005373523692404689,0.02136406026318775,0.278
+test100,TRAINED persona+axioms curriculum run2 - untrained persona+axioms iter1_1,assoc_err,0.003824554461984153,-0.0237307802050805,0.030509216474713233,0.84
+test100,TRAINED persona+axioms curriculum run2 - untrained persona+axioms iter1_1,marg_tv,0.007410265445149222,-0.006168293416450999,0.020085423921622304,0.294
+test100,TRAINED persona+axioms curriculum run2 - untrained persona+axioms iter1_1,reweight,0.0070121325204893226,-0.005476464473846454,0.019102258118647377,0.324
+test100,TRAINED persona+axioms curriculum run2 - untrained persona+axioms run0,cond_tv,-0.0024325714615933136,-0.0158357582875286,0.009360977055363633,0.588
+test100,TRAINED persona+axioms curriculum run2 - untrained persona+axioms run0,assoc_err,0.005850125860350552,-0.02262308375451021,0.03885528541755062,0.594
+test100,TRAINED persona+axioms curriculum run2 - untrained persona+axioms run0,marg_tv,0.00045154026228610977,-0.010430764383269479,0.012396502681070249,0.83
+test100,TRAINED persona+axioms curriculum run2 - untrained persona+axioms run0,reweight,0.0010644459553696972,-0.010927818124223557,0.012974479030522278,0.832
+test100,TRAINED persona+axioms curriculum run2 - untrained persona+axioms run1,cond_tv,-0.0007611937137341207,-0.014438746424695352,0.01259030535970303,0.894
+test100,TRAINED persona+axioms curriculum run2 - untrained persona+axioms run1,assoc_err,0.010896239726093826,-0.018446174313371214,0.04791918125965623,0.356
+test100,TRAINED persona+axioms curriculum run2 - untrained persona+axioms run1,marg_tv,0.007619077705685706,-0.00598748431588568,0.02144524349717058,0.246
+test100,TRAINED persona+axioms curriculum run2 - untrained persona+axioms run1,reweight,0.006304910615696269,-0.006198735131093867,0.02115757940079793,0.282
+test100,TRAINED persona+axioms curriculum run2 - untrained persona+axioms run2,cond_tv,0.002391504757533358,-0.01065600249571708,0.015986757710108605,0.658
+test100,TRAINED persona+axioms curriculum run2 - untrained persona+axioms run2,assoc_err,0.008884627520193422,-0.01422915592222075,0.03880545830859156,0.414
+test100,TRAINED persona+axioms curriculum run2 - untrained persona+axioms run2,marg_tv,0.007034031844777744,-0.00305500549810484,0.02249364137194853,0.144
+test100,TRAINED persona+axioms curriculum run2 - untrained persona+axioms run2,reweight,0.0038563880839606046,-0.009203815385876042,0.019235896790270202,0.504

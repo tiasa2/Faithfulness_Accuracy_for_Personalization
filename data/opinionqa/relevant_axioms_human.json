@@ -1,0 +1,285 @@
+{
+  "csv_row_position": 0,
+  "index_label": "0",
+  "keys": [
+    {
+      "key": "PP5a_W49",
+      "question": "How confident are you, if at all, that companies will follow what their privacy policies say they will do with your personal information?",
+      "relevant_axioms": [
+        {
+          "source_key": "PP6c_W49"
+        },
+        {
+          "source_key": "SHARE1_W49"
+        },
+        {
+          "source_key": "SOURCESKEPc_W45"
+        }
+      ]
+    },
+    {
+      "key": "PP6c_W49",
+      "question": "How comfortable are you, if at all, with companies using your personal data to help them develop new products?",
+      "relevant_axioms": [
+        {
+          "source_key": "PP5a_W49"
+        },
+        {
+          "source_key": "SHARE1_W49"
+        },
+        {
+          "source_key": "SCM5e_W42"
+        }
+      ]
+    },
+    {
+      "key": "SHARE1_W49",
+      "question": "Have you recently decided not to use a product or service because you were worried about how much personal information would be collected about you?",
+      "relevant_axioms": [
+        {
+          "source_key": "PP5a_W49"
+        },
+        {
+          "source_key": "PP6c_W49"
+        }
+      ]
+    },
+    {
+      "key": "HAPPENf_W41",
+      "question": "Still thinking ahead 30 years, which do you think is more likely to happen in the U.S.? The public education system will improve/get worse",
+      "relevant_axioms": [
+        {
+          "source_key": "FTRWORRYd_W41"
+        },
+        {
+          "source_key": "POP2_W42"
+        },
+        {
+          "source_key": "POP3_W42"
+        }
+      ]
+    },
+    {
+      "key": "FTRWORRYd_W41",
+      "question": "Still thinking about the future of our country, how worried are you, if at all, about the ability of political leaders to solve the country's biggest problems?",
+      "relevant_axioms": [
+        {
+          "source_key": "HAPPENf_W41"
+        },
+        {
+          "source_key": "SOURCESKEPc_W45"
+        },
+        {
+          "source_key": "WATCHDOG_1_W45"
+        },
+        {
+          "source_key": "POP2_W42"
+        }
+      ]
+    },
+    {
+      "key": "LEGALIMG_W41",
+      "question": "In order to maintain the strength of the U.S. economy over the next 30 years, do you think that legal immigration will need to be",
+      "relevant_axioms": [
+        {
+          "source_key": "HAPPENf_W41"
+        },
+        {
+          "source_key": "FTRWORRYd_W41"
+        },
+        {
+          "source_key": "POP2_W42"
+        },
+        {
+          "source_key": "RACESURV6_W43"
+        },
+        {
+          "source_key": "RACATTN_W43"
+        }
+      ]
+    },
+    {
+      "key": "SOURCESKEPc_W45",
+      "question": "How much do you trust the accuracy of the news and information that you get from political leaders and public officials",
+      "relevant_axioms": [
+        {
+          "source_key": "FTRWORRYd_W41"
+        },
+        {
+          "source_key": "WATCHDOG_1_W45"
+        },
+        {
+          "source_key": "POP2_W42"
+        },
+        {
+          "source_key": "RACESURV6_W43"
+        },
+        {
+          "source_key": "RACATTN_W43"
+        }
+      ]
+    },
+    {
+      "key": "INFOOWNe_W45",
+      "question": "How do you feel about your own ability to recognize the following type of news and information? A video or image that is altered or made up to mislead the public",
+      "relevant_axioms": [
+        {
+          "source_key": "SOURCESKEPc_W45"
+        },
+        {
+          "source_key": "WATCHDOG_1_W45"
+        }
+      ]
+    },
+    {
+      "key": "WATCHDOG_1_W45",
+      "question": "Some people think that by criticizing leaders, news organizations keep political leaders from doing their job. Others think that such criticism is worth it because it keeps political leaders from doing things that should not be done. Which position is closer to your opinion?",
+      "relevant_axioms": [
+        {
+          "source_key": "HAPPENf_W41"
+        },
+        {
+          "source_key": "FTRWORRYd_W41"
+        },
+        {
+          "source_key": "LEGALIMG_W41"
+        },
+        {
+          "source_key": "SOURCESKEPc_W45"
+        },
+        {
+          "source_key": "INFOOWNe_W45"
+        },
+        {
+          "source_key": "POP2_W42"
+        },
+        {
+          "source_key": "POP3_W42"
+        }
+      ]
+    },
+    {
+      "key": "SCM5e_W42",
+      "question": "In general, would you say the following statements describes most research scientists well? Don't pay attention to the moral values of society",
+      "relevant_axioms": [
+        {
+          "source_key": "HAPPENf_W41"
+        },
+        {
+          "source_key": "FTRWORRYd_W41"
+        },
+        {
+          "source_key": "POP2_W42"
+        },
+        {
+          "source_key": "POP3_W42"
+        }
+      ]
+    },
+    {
+      "key": "POP2_W42",
+      "question": "In general, do you think most of the important policy decisions in this country are made with",
+      "relevant_axioms": [
+        {
+          "source_key": "HAPPENf_W41"
+        },
+        {
+          "source_key": "FTRWORRYd_W41"
+        },
+        {
+          "source_key": "LEGALIMG_W41"
+        },
+        {
+          "source_key": "SOURCESKEPc_W45"
+        },
+        {
+          "source_key": "WATCHDOG_1_W45"
+        },
+        {
+          "source_key": "SCM5e_W42"
+        },
+        {
+          "source_key": "POP3_W42"
+        },
+        {
+          "source_key": "RACESURV6_W43"
+        }
+      ]
+    },
+    {
+      "key": "POP3_W42",
+      "question": "Which of these do you think is the better way to solve the country's most pressing problems, even if neither is exactly right?",
+      "relevant_axioms": [
+        {
+          "source_key": "FTRWORRYd_W41"
+        },
+        {
+          "source_key": "LEGALIMG_W41"
+        },
+        {
+          "source_key": "SOURCESKEPc_W45"
+        },
+        {
+          "source_key": "WATCHDOG_1_W45"
+        },
+        {
+          "source_key": "SCM5e_W42"
+        },
+        {
+          "source_key": "POP2_W42"
+        },
+        {
+          "source_key": "RACESURV6_W43"
+        },
+        {
+          "source_key": "RACATTN_W43"
+        }
+      ]
+    },
+    {
+      "key": "RACESURV6_W43",
+      "question": "When it comes to racial discrimination, which do you think is the bigger problem for the country today?",
+      "relevant_axioms": [
+        {
+          "source_key": "POP2_W42"
+        },
+        {
+          "source_key": "RACESURV7_W43"
+        },
+        {
+          "source_key": "RACATTN_W43"
+        }
+      ]
+    },
+    {
+      "key": "RACESURV7_W43",
+      "question": "How often, if ever, does race or race relations come up in your conversations with family and friends?",
+      "relevant_axioms": [
+        {
+          "source_key": "POP2_W42"
+        },
+        {
+          "source_key": "RACESURV6_W43"
+        },
+        {
+          "source_key": "RACATTN_W43"
+        }
+      ]
+    },
+    {
+      "key": "RACATTN_W43",
+      "question": "In general, do you think there is too much, too little, or about the right amount of attention paid to race and racial issues in our country these days?",
+      "relevant_axioms": [
+        {
+          "source_key": "POP2_W42"
+        },
+        {
+          "source_key": "RACESURV6_W43"
+        },
+        {
+          "source_key": "RACESURV7_W43"
+        }
+      ]
+    }
+  ]
+}

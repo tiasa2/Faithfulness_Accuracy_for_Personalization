@@ -1,0 +1,271 @@
+sample,grouping,kind,comparison,metric,value,lo,hi
+all500,POLPARTY,level,baseline,acc_nonmodal,0.3446583253128008,,
+all500,POLPARTY,level,baseline,acc_modal,0.5147722435078756,,
+all500,POLPARTY,level,baseline,C&NM_share,0.1617799864468037,,
+all500,POLPARTY,level,baseline,stereo_follow,0.4505293551491819,,
+all500,POLPARTY,level,baseline,nonmodal_share,0.46939236503275356,,
+all500,POLPARTY,level,persona,acc_nonmodal,0.3093725943033102,,
+all500,POLPARTY,level,persona,acc_modal,0.6656449553001277,,
+all500,POLPARTY,level,persona,C&NM_share,0.14523196458418033,,
+all500,POLPARTY,level,persona,stereo_follow,0.5308891454965358,,
+all500,POLPARTY,level,persona,nonmodal_share,0.4694403035641686,,
+all500,POLPARTY,level,axioms,acc_nonmodal,0.35411855273287146,,
+all500,POLPARTY,level,axioms,acc_modal,0.6686249467858664,,
+all500,POLPARTY,level,axioms,C&NM_share,0.1662375208926232,,
+all500,POLPARTY,level,axioms,stereo_follow,0.5046189376443418,,
+all500,POLPARTY,level,axioms,nonmodal_share,0.4694403035641686,,
+all500,POLPARTY,level,persona+axioms,acc_nonmodal,0.35604311008468054,,
+all500,POLPARTY,level,persona+axioms,acc_modal,0.6649638143891018,,
+all500,POLPARTY,level,persona+axioms,C&NM_share,0.16714098568008312,,
+all500,POLPARTY,level,persona+axioms,stereo_follow,0.5024056966897613,,
+all500,POLPARTY,level,persona+axioms,nonmodal_share,0.4694403035641686,,
+all500,POLPARTY,contrast,persona - baseline,acc_nonmodal,-0.03528573100949056,-0.04942026254182485,-0.021994650581147752
+all500,POLPARTY,contrast,persona - baseline,acc_modal,0.15087271179225203,0.13726875119634263,0.1633302807743731
+all500,POLPARTY,contrast,persona - baseline,C&NM_share,-0.016548021862623358,-0.023225048848005175,-0.010331616120273545
+all500,POLPARTY,contrast,persona - baseline,stereo_follow,0.08035979034735385,0.06684093732937256,0.0948123051636026
+all500,POLPARTY,contrast,persona - baseline,nonmodal_share,4.7938531415048224e-05,0.0,0.00012025714057505021
+all500,POLPARTY,contrast,axioms - baseline,acc_nonmodal,0.009460227420070688,-0.005391772561036779,0.02567228256521551
+all500,POLPARTY,contrast,axioms - baseline,acc_modal,0.15385270327799072,0.13978473522944485,0.16735702509007708
+all500,POLPARTY,contrast,axioms - baseline,C&NM_share,0.004457534445819505,-0.002543803278229703,0.01205197577028923
+all500,POLPARTY,contrast,axioms - baseline,stereo_follow,0.05408958249515994,0.04029974121528352,0.06787596718713135
+all500,POLPARTY,contrast,axioms - baseline,nonmodal_share,4.7938531415048224e-05,0.0,0.00012025714057505021
+all500,POLPARTY,contrast,persona+axioms - persona,acc_nonmodal,0.046670515781370325,0.03088702751751407,0.0622914781256421
+all500,POLPARTY,contrast,persona+axioms - persona,acc_modal,-0.0006811409110258904,-0.013957663060454668,0.011161021365732214
+all500,POLPARTY,contrast,persona+axioms - persona,C&NM_share,0.021909021095902786,0.014522115356046337,0.02935705478313342
+all500,POLPARTY,contrast,persona+axioms - persona,stereo_follow,-0.028483448806774447,-0.04332285616954743,-0.012550142832029753
+all500,POLPARTY,contrast,persona+axioms - persona,nonmodal_share,0.0,0.0,0.0
+all500,POLPARTY,contrast,persona+axioms - axioms,acc_nonmodal,0.0019245573518090753,-0.005482312363277379,0.009756165812777308
+all500,POLPARTY,contrast,persona+axioms - axioms,acc_modal,-0.003661132396764577,-0.00972548109167821,0.0023839062700358234
+all500,POLPARTY,contrast,persona+axioms - axioms,C&NM_share,0.0009034647874599233,-0.0026209684751777643,0.004549428674177426
+all500,POLPARTY,contrast,persona+axioms - axioms,stereo_follow,-0.002213240954580531,-0.010043087080270147,0.005118664294200253
+all500,POLPARTY,contrast,persona+axioms - axioms,nonmodal_share,0.0,0.0,0.0
+all500,POLPARTY,contrast,axioms - persona,acc_nonmodal,0.04474595842956125,0.028842862762876686,0.059813316893411524
+all500,POLPARTY,contrast,axioms - persona,acc_modal,0.0029799914857386867,-0.011390249329770171,0.0157385429080452
+all500,POLPARTY,contrast,axioms - persona,C&NM_share,0.021005556308442863,0.013498821343524356,0.02802549710176827
+all500,POLPARTY,contrast,axioms - persona,stereo_follow,-0.026270207852193916,-0.04249776801340843,-0.010132841401023156
+all500,POLPARTY,contrast,axioms - persona,nonmodal_share,0.0,0.0,0.0
+all500,POLIDEOLOGY,level,baseline,acc_nonmodal,0.32749167808889756,,
+all500,POLIDEOLOGY,level,baseline,acc_modal,0.5269692139921147,,
+all500,POLIDEOLOGY,level,baseline,C&NM_share,0.15111813869437543,,
+all500,POLIDEOLOGY,level,baseline,stereo_follow,0.4506559624045428,,
+all500,POLIDEOLOGY,level,baseline,nonmodal_share,0.4614411565394172,,
+all500,POLIDEOLOGY,level,persona,acc_nonmodal,0.31336270190895743,,
+all500,POLIDEOLOGY,level,persona,acc_modal,0.6569367555779232,,
+all500,POLIDEOLOGY,level,persona,C&NM_share,0.1445995392329584,,
+all500,POLIDEOLOGY,level,persona,stereo_follow,0.5225648556045032,,
+all500,POLIDEOLOGY,level,persona,nonmodal_share,0.4614446401951484,,
+all500,POLIDEOLOGY,level,axioms,acc_nonmodal,0.3372491434165443,,
+all500,POLIDEOLOGY,level,axioms,acc_modal,0.6784096628082537,,
+all500,POLIDEOLOGY,level,axioms,C&NM_share,0.15562180963996927,,
+all500,POLIDEOLOGY,level,axioms,stereo_follow,0.5141458639255996,,
+all500,POLIDEOLOGY,level,axioms,nonmodal_share,0.4614446401951484,,
+all500,POLIDEOLOGY,level,persona+axioms,acc_nonmodal,0.3413607440039158,,
+all500,POLIDEOLOGY,level,persona+axioms,acc_modal,0.6729575574568025,,
+all500,POLIDEOLOGY,level,persona+axioms,C&NM_share,0.1575190856936351,,
+all500,POLIDEOLOGY,level,persona+axioms,stereo_follow,0.5098384728340676,,
+all500,POLIDEOLOGY,level,persona+axioms,nonmodal_share,0.4614446401951484,,
+all500,POLIDEOLOGY,contrast,persona - baseline,acc_nonmodal,-0.014128976179940134,-0.02849874502424177,-0.0017785956976662804
+all500,POLIDEOLOGY,contrast,persona - baseline,acc_modal,0.12996754158580848,0.11493526945713671,0.14363560399979652
+all500,POLIDEOLOGY,contrast,persona - baseline,C&NM_share,-0.0065185994614170295,-0.013091396654312103,-0.0008259233953179838
+all500,POLIDEOLOGY,contrast,persona - baseline,stereo_follow,0.07190889319996036,0.05688452289047244,0.08651734486610073
+all500,POLIDEOLOGY,contrast,persona - baseline,nonmodal_share,3.483655731217894e-06,-5.9879024989580027e-05,7.323192262057993e-05
+all500,POLIDEOLOGY,contrast,axioms - baseline,acc_nonmodal,0.009757465327646708,-0.007128453584188221,0.024841083408422966
+all500,POLIDEOLOGY,contrast,axioms - baseline,acc_modal,0.15144044881613894,0.13591531165768977,0.16658022213904888
+all500,POLIDEOLOGY,contrast,axioms - baseline,C&NM_share,0.004503670945593841,-0.003263034924612116,0.011460575577205492
+all500,POLIDEOLOGY,contrast,axioms - baseline,stereo_follow,0.06348990152105677,0.04780910535317909,0.07864022406504091
+all500,POLIDEOLOGY,contrast,axioms - baseline,nonmodal_share,3.483655731217894e-06,-5.9879024989580027e-05,7.323192262057993e-05
+all500,POLIDEOLOGY,contrast,persona+axioms - persona,acc_nonmodal,0.027998042094958375,0.014055277234804283,0.04318124564075738
+all500,POLIDEOLOGY,contrast,persona+axioms - persona,acc_modal,0.01602080187887933,0.003704237286998233,0.02929572439436378
+all500,POLIDEOLOGY,contrast,persona+axioms - persona,C&NM_share,0.012919546460676695,0.006452040587587566,0.01993133551623986
+all500,POLIDEOLOGY,contrast,persona+axioms - persona,stereo_follow,-0.012726382770435585,-0.029614443624593534,0.003582721543084645
+all500,POLIDEOLOGY,contrast,persona+axioms - persona,nonmodal_share,0.0,0.0,0.0
+all500,POLIDEOLOGY,contrast,persona+axioms - axioms,acc_nonmodal,0.004111600587371533,-0.0035057085570358456,0.012085354416859907
+all500,POLIDEOLOGY,contrast,persona+axioms - axioms,acc_modal,-0.005452105351451131,-0.011578828296572316,0.0008408109403080073
+all500,POLIDEOLOGY,contrast,persona+axioms - axioms,C&NM_share,0.001897276053665825,-0.0016220224372256995,0.0055518129740895344
+all500,POLIDEOLOGY,contrast,persona+axioms - axioms,stereo_follow,-0.004307391091531998,-0.013028548122221381,0.003972476649720143
+all500,POLIDEOLOGY,contrast,persona+axioms - axioms,nonmodal_share,0.0,0.0,0.0
+all500,POLIDEOLOGY,contrast,axioms - persona,acc_nonmodal,0.023886441507586842,0.009114241714633035,0.04063353673153097
+all500,POLIDEOLOGY,contrast,axioms - persona,acc_modal,0.021472907230330462,0.009291761728555444,0.03471914262935016
+all500,POLIDEOLOGY,contrast,axioms - persona,C&NM_share,0.01102227040701087,0.00420126167053805,0.01858245771710546
+all500,POLIDEOLOGY,contrast,axioms - persona,stereo_follow,-0.008418991678903587,-0.026365441710269298,0.008634450698860839
+all500,POLIDEOLOGY,contrast,axioms - persona,nonmodal_share,0.0,0.0,0.0
+all500,PARTYxIDEO,level,baseline,acc_nonmodal,0.36078827690752907,,
+all500,PARTYxIDEO,level,baseline,acc_modal,0.4948529411764706,,
+all500,PARTYxIDEO,level,baseline,C&NM_share,0.16128303591597018,,
+all500,PARTYxIDEO,level,baseline,stereo_follow,0.4016169782718545,,
+all500,PARTYxIDEO,level,baseline,nonmodal_share,0.4470295911452451,,
+all500,PARTYxIDEO,level,persona,acc_nonmodal,0.32898858239870665,,
+all500,PARTYxIDEO,level,persona,acc_modal,0.635375816993464,,
+all500,PARTYxIDEO,level,persona,C&NM_share,0.14708406739847316,,
+all500,PARTYxIDEO,level,persona,stereo_follow,0.48671314539759525,,
+all500,PARTYxIDEO,level,persona,nonmodal_share,0.44707955007453587,,
+all500,PARTYxIDEO,level,axioms,acc_nonmodal,0.36718197433565725,,
+all500,PARTYxIDEO,level,axioms,acc_modal,0.645343137254902,,
+all500,PARTYxIDEO,level,axioms,C&NM_share,0.16415955188146542,,
+all500,PARTYxIDEO,level,axioms,stereo_follow,0.4711528746084672,,
+all500,PARTYxIDEO,level,axioms,nonmodal_share,0.44707955007453587,,
+all500,PARTYxIDEO,level,persona+axioms,acc_nonmodal,0.3722340103061534,,
+all500,PARTYxIDEO,level,persona+axioms,acc_modal,0.6393790849673202,,
+all500,PARTYxIDEO,level,persona+axioms,C&NM_share,0.16641821385011518,,
+all500,PARTYxIDEO,level,persona+axioms,stereo_follow,0.4637769020915429,,
+all500,PARTYxIDEO,level,persona+axioms,nonmodal_share,0.44707955007453587,,
+all500,PARTYxIDEO,contrast,persona - baseline,acc_nonmodal,-0.03179969450882242,-0.04659892384746354,-0.015514944040265705
+all500,PARTYxIDEO,contrast,persona - baseline,acc_modal,0.1405228758169934,0.12659704196644778,0.15468767804162947
+all500,PARTYxIDEO,contrast,persona - baseline,C&NM_share,-0.014198968517497024,-0.02080054636996671,-0.006912446899264422
+all500,PARTYxIDEO,contrast,persona - baseline,stereo_follow,0.08509616712574075,0.0689723726151137,0.1008449777368035
+all500,PARTYxIDEO,contrast,persona - baseline,nonmodal_share,4.995892929077206e-05,0.0,0.00012557710523958542
+all500,PARTYxIDEO,contrast,axioms - baseline,acc_nonmodal,0.0063936974281281755,-0.010710076599487028,0.024266126436064305
+all500,PARTYxIDEO,contrast,axioms - baseline,acc_modal,0.1504901960784314,0.13512840662332398,0.16675093005659397
+all500,PARTYxIDEO,contrast,axioms - baseline,C&NM_share,0.0028765159654952355,-0.004787067785412711,0.010790984904838753
+all500,PARTYxIDEO,contrast,axioms - baseline,stereo_follow,0.06953589633661272,0.05378620431485033,0.08487291623898564
+all500,PARTYxIDEO,contrast,axioms - baseline,nonmodal_share,4.995892929077206e-05,0.0,0.00012557710523958542
+all500,PARTYxIDEO,contrast,persona+axioms - persona,acc_nonmodal,0.04324542790744673,0.027648470682322446,0.05850452918258354
+all500,PARTYxIDEO,contrast,persona+axioms - persona,acc_modal,0.004003267973856195,-0.009740284834370344,0.017313831458096885
+all500,PARTYxIDEO,contrast,persona+axioms - persona,C&NM_share,0.019334146451642026,0.012296495945921087,0.02619928890691717
+all500,PARTYxIDEO,contrast,persona+axioms - persona,stereo_follow,-0.022936243306052373,-0.03966281716729705,-0.006947939475146235
+all500,PARTYxIDEO,contrast,persona+axioms - persona,nonmodal_share,0.0,0.0,0.0
+all500,PARTYxIDEO,contrast,persona+axioms - axioms,acc_nonmodal,0.005052035970496138,-0.0027511837794850376,0.012813918040391413
+all500,PARTYxIDEO,contrast,persona+axioms - axioms,acc_modal,-0.005964052287581789,-0.011974705049749314,0.0002440299776503756
+all500,PARTYxIDEO,contrast,persona+axioms - axioms,C&NM_share,0.0022586619686497666,-0.001260376167973129,0.0056545459511566365
+all500,PARTYxIDEO,contrast,persona+axioms - axioms,stereo_follow,-0.007375972516924345,-0.015376965535327827,0.00030816411090514215
+all500,PARTYxIDEO,contrast,persona+axioms - axioms,nonmodal_share,0.0,0.0,0.0
+all500,PARTYxIDEO,contrast,axioms - persona,acc_nonmodal,0.038193391936950594,0.02163256919780443,0.054290284040866194
+all500,PARTYxIDEO,contrast,axioms - persona,acc_modal,0.009967320261437984,-0.004068793810357995,0.022780673027800243
+all500,PARTYxIDEO,contrast,axioms - persona,C&NM_share,0.01707548448299226,0.00964728500763915,0.02418217066838761
+all500,PARTYxIDEO,contrast,axioms - persona,stereo_follow,-0.015560270789128028,-0.03228396699644949,0.0006414513402559568
+all500,PARTYxIDEO,contrast,axioms - persona,nonmodal_share,0.0,0.0,0.0
+test100,POLPARTY,level,baseline,acc_nonmodal,0.36061507936507936,,
+test100,POLPARTY,level,baseline,acc_modal,0.511742892459827,,
+test100,POLPARTY,level,baseline,C&NM_share,0.16362817915822642,,
+test100,POLPARTY,level,baseline,stereo_follow,0.4350198412698413,,
+test100,POLPARTY,level,baseline,nonmodal_share,0.4537474679270763,,
+test100,POLPARTY,level,persona,acc_nonmodal,0.3070436507936508,,
+test100,POLPARTY,level,persona,acc_modal,0.6543057272352699,,
+test100,POLPARTY,level,persona,C&NM_share,0.1393202790907045,,
+test100,POLPARTY,level,persona,stereo_follow,0.5257936507936508,,
+test100,POLPARTY,level,persona,nonmodal_share,0.4537474679270763,,
+test100,POLPARTY,level,axioms,acc_nonmodal,0.35912698412698413,,
+test100,POLPARTY,level,axioms,acc_modal,0.6633704161516275,,
+test100,POLPARTY,level,axioms,C&NM_share,0.16295295971190638,,
+test100,POLPARTY,level,axioms,stereo_follow,0.49851190476190477,,
+test100,POLPARTY,level,axioms,nonmodal_share,0.4537474679270763,,
+test100,POLPARTY,level,persona+axioms,acc_nonmodal,0.35962301587301587,,
+test100,POLPARTY,level,persona+axioms,acc_modal,0.6625463535228677,,
+test100,POLPARTY,level,persona+axioms,C&NM_share,0.16317803286067972,,
+test100,POLPARTY,level,persona+axioms,stereo_follow,0.49603174603174605,,
+test100,POLPARTY,level,persona+axioms,nonmodal_share,0.4537474679270763,,
+test100,POLPARTY,contrast,persona - baseline,acc_nonmodal,-0.05357142857142855,-0.08164081224693774,-0.024532216174230678
+test100,POLPARTY,contrast,persona - baseline,acc_modal,0.14256283477544296,0.11530536668227438,0.17135300885300875
+test100,POLPARTY,contrast,persona - baseline,C&NM_share,-0.024307900067521926,-0.03778869079392192,-0.010951570401874115
+test100,POLPARTY,contrast,persona - baseline,stereo_follow,0.09077380952380953,0.05921553445420095,0.12292606847452418
+test100,POLPARTY,contrast,persona - baseline,nonmodal_share,0.0,0.0,0.0
+test100,POLPARTY,contrast,axioms - baseline,acc_nonmodal,-0.0014880952380952328,-0.03377909063089599,0.030220444577559815
+test100,POLPARTY,contrast,axioms - baseline,acc_modal,0.15162752369180055,0.12254651860744299,0.18170710868079284
+test100,POLPARTY,contrast,axioms - baseline,C&NM_share,-0.0006752194463200412,-0.015274807641324417,0.013693636818636817
+test100,POLPARTY,contrast,axioms - baseline,stereo_follow,0.06349206349206349,0.034095856317676095,0.09444785276073614
+test100,POLPARTY,contrast,axioms - baseline,nonmodal_share,0.0,0.0,0.0
+test100,POLPARTY,contrast,persona+axioms - persona,acc_nonmodal,0.05257936507936506,0.015963240959055502,0.08738433441558441
+test100,POLPARTY,contrast,persona+axioms - persona,acc_modal,0.008240626287597808,-0.02033160101576808,0.03880267385438298
+test100,POLPARTY,contrast,persona+axioms - persona,C&NM_share,0.023857753769975232,0.00718772765815149,0.039787585874005514
+test100,POLPARTY,contrast,persona+axioms - persona,stereo_follow,-0.029761904761904767,-0.06580264006413891,0.009655006224409061
+test100,POLPARTY,contrast,persona+axioms - persona,nonmodal_share,0.0,0.0,0.0
+test100,POLPARTY,contrast,persona+axioms - axioms,acc_nonmodal,0.0004960317460317443,-0.01566324033284383,0.017011830338262337
+test100,POLPARTY,contrast,persona+axioms - axioms,acc_modal,-0.0008240626287597808,-0.013573668988553531,0.011307602007515528
+test100,POLPARTY,contrast,persona+axioms - axioms,C&NM_share,0.00022507314877334705,-0.00719784586550895,0.007861635220125784
+test100,POLPARTY,contrast,persona+axioms - axioms,stereo_follow,-0.0024801587301587213,-0.01863755645345643,0.013122427542445598
+test100,POLPARTY,contrast,persona+axioms - axioms,nonmodal_share,0.0,0.0,0.0
+test100,POLPARTY,contrast,axioms - persona,acc_nonmodal,0.052083333333333315,0.014385513936977627,0.0896198973755597
+test100,POLPARTY,contrast,axioms - persona,acc_modal,0.009064688916357588,-0.01882770501168007,0.03773450694031171
+test100,POLPARTY,contrast,axioms - persona,C&NM_share,0.023632680621201885,0.006336060386390051,0.040629054775396224
+test100,POLPARTY,contrast,axioms - persona,stereo_follow,-0.027281746031746046,-0.06284453852846925,0.012051124204848626
+test100,POLPARTY,contrast,axioms - persona,nonmodal_share,0.0,0.0,0.0
+test100,POLIDEOLOGY,level,baseline,acc_nonmodal,0.3505408062930187,,
+test100,POLIDEOLOGY,level,baseline,acc_modal,0.5213781652137817,,
+test100,POLIDEOLOGY,level,baseline,C&NM_share,0.1604771550753995,,
+test100,POLIDEOLOGY,level,baseline,stereo_follow,0.4326450344149459,,
+test100,POLIDEOLOGY,level,baseline,nonmodal_share,0.4577987846049966,,
+test100,POLIDEOLOGY,level,persona,acc_nonmodal,0.32055063913470994,,
+test100,POLIDEOLOGY,level,persona,acc_modal,0.6454960564549606,,
+test100,POLIDEOLOGY,level,persona,C&NM_share,0.14674769300022508,,
+test100,POLIDEOLOGY,level,persona,stereo_follow,0.5088495575221239,,
+test100,POLIDEOLOGY,level,persona,nonmodal_share,0.4577987846049966,,
+test100,POLIDEOLOGY,level,axioms,acc_nonmodal,0.37413962635201575,,
+test100,POLIDEOLOGY,level,axioms,acc_modal,0.6529680365296804,,
+test100,POLIDEOLOGY,level,axioms,C&NM_share,0.17128066621652036,,
+test100,POLIDEOLOGY,level,axioms,stereo_follow,0.4631268436578171,,
+test100,POLIDEOLOGY,level,axioms,nonmodal_share,0.4577987846049966,,
+test100,POLIDEOLOGY,level,persona+axioms,acc_nonmodal,0.3834808259587021,,
+test100,POLIDEOLOGY,level,persona+axioms,acc_modal,0.6446658364466583,,
+test100,POLIDEOLOGY,level,persona+axioms,C&NM_share,0.17555705604321403,,
+test100,POLIDEOLOGY,level,persona+axioms,stereo_follow,0.4670599803343166,,
+test100,POLIDEOLOGY,level,persona+axioms,nonmodal_share,0.4577987846049966,,
+test100,POLIDEOLOGY,contrast,persona - baseline,acc_nonmodal,-0.029990167158308767,-0.06263901760889712,0.002828092531857923
+test100,POLIDEOLOGY,contrast,persona - baseline,acc_modal,0.12411789124117889,0.09516363583056643,0.1494969076412694
+test100,POLIDEOLOGY,contrast,persona - baseline,C&NM_share,-0.01372946207517442,-0.028553295392605378,0.0013450578871332212
+test100,POLIDEOLOGY,contrast,persona - baseline,stereo_follow,0.07620452310717801,0.040613524636199605,0.10975488179317804
+test100,POLIDEOLOGY,contrast,persona - baseline,nonmodal_share,0.0,0.0,0.0
+test100,POLIDEOLOGY,contrast,axioms - baseline,acc_nonmodal,0.02359882005899705,-0.012990951193921083,0.05659283000949666
+test100,POLIDEOLOGY,contrast,axioms - baseline,acc_modal,0.13158987131589872,0.09450206293778972,0.16422474691631034
+test100,POLIDEOLOGY,contrast,axioms - baseline,C&NM_share,0.010803511141120853,-0.006096351168612817,0.025930128245596203
+test100,POLIDEOLOGY,contrast,axioms - baseline,stereo_follow,0.030481809242871194,-0.0020113908487660367,0.0654877998888942
+test100,POLIDEOLOGY,contrast,axioms - baseline,nonmodal_share,0.0,0.0,0.0
+test100,POLIDEOLOGY,contrast,persona+axioms - persona,acc_nonmodal,0.06293018682399215,0.028877771774767004,0.09629736673089272
+test100,POLIDEOLOGY,contrast,persona+axioms - persona,acc_modal,-0.0008302200083022404,-0.029563734828625694,0.027529664451288644
+test100,POLIDEOLOGY,contrast,persona+axioms - persona,C&NM_share,0.02880936304298895,0.013190290464716313,0.04416233475800273
+test100,POLIDEOLOGY,contrast,persona+axioms - persona,stereo_follow,-0.04178957718780729,-0.07647268309033015,-0.004471997708618661
+test100,POLIDEOLOGY,contrast,persona+axioms - persona,nonmodal_share,0.0,0.0,0.0
+test100,POLIDEOLOGY,contrast,persona+axioms - axioms,acc_nonmodal,0.009341199606686335,-0.006042091555739346,0.026214981972496068
+test100,POLIDEOLOGY,contrast,persona+axioms - axioms,acc_modal,-0.008302200083022071,-0.021250507975210737,0.003689767121643727
+test100,POLIDEOLOGY,contrast,persona+axioms - axioms,C&NM_share,0.004276389826693677,-0.0029220049449314445,0.012198885877747673
+test100,POLIDEOLOGY,contrast,persona+axioms - axioms,stereo_follow,0.003933136676499527,-0.012849042237247471,0.020188202798814905
+test100,POLIDEOLOGY,contrast,persona+axioms - axioms,nonmodal_share,0.0,0.0,0.0
+test100,POLIDEOLOGY,contrast,axioms - persona,acc_nonmodal,0.05358898721730582,0.016740867579908676,0.08786226283306425
+test100,POLIDEOLOGY,contrast,axioms - persona,acc_modal,0.007471980074719831,-0.02113683739175776,0.03465362421993165
+test100,POLIDEOLOGY,contrast,axioms - persona,C&NM_share,0.024532973216295273,0.007600671140939617,0.040133175753203396
+test100,POLIDEOLOGY,contrast,axioms - persona,stereo_follow,-0.04572271386430682,-0.08183518964187197,-0.008321850393700822
+test100,POLIDEOLOGY,contrast,axioms - persona,nonmodal_share,0.0,0.0,0.0
+test100,PARTYxIDEO,level,baseline,acc_nonmodal,0.3798910351659237,,
+test100,PARTYxIDEO,level,baseline,acc_modal,0.49587458745874585,,
+test100,PARTYxIDEO,level,baseline,C&NM_share,0.17263110510916047,,
+test100,PARTYxIDEO,level,baseline,stereo_follow,0.39177810797424467,,
+test100,PARTYxIDEO,level,baseline,nonmodal_share,0.45442268737339636,,
+test100,PARTYxIDEO,level,persona,acc_nonmodal,0.33580980683506684,,
+test100,PARTYxIDEO,level,persona,acc_modal,0.6307755775577558,,
+test100,PARTYxIDEO,level,persona,C&NM_share,0.15259959486833222,,
+test100,PARTYxIDEO,level,persona,stereo_follow,0.48637939574046557,,
+test100,PARTYxIDEO,level,persona,nonmodal_share,0.45442268737339636,,
+test100,PARTYxIDEO,level,axioms,acc_nonmodal,0.3863298662704309,,
+test100,PARTYxIDEO,level,axioms,acc_modal,0.6410891089108911,,
+test100,PARTYxIDEO,level,axioms,C&NM_share,0.17555705604321403,,
+test100,PARTYxIDEO,level,axioms,stereo_follow,0.4422981674096087,,
+test100,PARTYxIDEO,level,axioms,nonmodal_share,0.45442268737339636,,
+test100,PARTYxIDEO,level,persona+axioms,acc_nonmodal,0.3848439821693908,,
+test100,PARTYxIDEO,level,persona+axioms,acc_modal,0.641914191419142,,
+test100,PARTYxIDEO,level,persona+axioms,C&NM_share,0.174881836596894,,
+test100,PARTYxIDEO,level,persona+axioms,stereo_follow,0.4467558197127291,,
+test100,PARTYxIDEO,level,persona+axioms,nonmodal_share,0.45442268737339636,,
+test100,PARTYxIDEO,contrast,persona - baseline,acc_nonmodal,-0.04408122833085687,-0.0738465909090909,-0.01455659594901346
+test100,PARTYxIDEO,contrast,persona - baseline,acc_modal,0.13490099009900997,0.10559155916911583,0.16149593230291323
+test100,PARTYxIDEO,contrast,persona - baseline,C&NM_share,-0.02003151024082825,-0.03401463963963965,-0.006513926325247082
+test100,PARTYxIDEO,contrast,persona - baseline,stereo_follow,0.0946012877662209,0.06210817188276206,0.1290471923536439
+test100,PARTYxIDEO,contrast,persona - baseline,nonmodal_share,0.0,0.0,0.0
+test100,PARTYxIDEO,contrast,axioms - baseline,acc_nonmodal,0.006438831104507214,-0.026282389108476068,0.037708102108768016
+test100,PARTYxIDEO,contrast,axioms - baseline,acc_modal,0.14521452145214525,0.11406564168975135,0.17615881847350354
+test100,PARTYxIDEO,contrast,axioms - baseline,C&NM_share,0.002925950934053567,-0.012297448211280279,0.01706325025618502
+test100,PARTYxIDEO,contrast,axioms - baseline,stereo_follow,0.05052005943536403,0.018409518593416448,0.08192896403350775
+test100,PARTYxIDEO,contrast,axioms - baseline,nonmodal_share,0.0,0.0,0.0
+test100,PARTYxIDEO,contrast,persona+axioms - persona,acc_nonmodal,0.04903417533432397,0.014559430725577381,0.08214434311891977
+test100,PARTYxIDEO,contrast,persona+axioms - persona,acc_modal,0.011138613861386149,-0.017717782464405685,0.04031147351376357
+test100,PARTYxIDEO,contrast,persona+axioms - persona,C&NM_share,0.022282241728561775,0.00650499343719682,0.03787768413708261
+test100,PARTYxIDEO,contrast,persona+axioms - persona,stereo_follow,-0.039623576027736473,-0.07401960784313721,-0.0053065998245226285
+test100,PARTYxIDEO,contrast,persona+axioms - persona,nonmodal_share,0.0,0.0,0.0
+test100,PARTYxIDEO,contrast,persona+axioms - axioms,acc_nonmodal,-0.0014858841010401136,-0.01782492882408765,0.015666061360146196
+test100,PARTYxIDEO,contrast,persona+axioms - axioms,acc_modal,0.0008250825082508628,-0.011426484476449011,0.012642625102017895
+test100,PARTYxIDEO,contrast,persona+axioms - axioms,C&NM_share,-0.0006752194463200412,-0.00808625336927224,0.007173521058300263
+test100,PARTYxIDEO,contrast,persona+axioms - axioms,stereo_follow,0.004457652303120396,-0.010628608823427867,0.02080791966618427
+test100,PARTYxIDEO,contrast,persona+axioms - axioms,nonmodal_share,0.0,0.0,0.0
+test100,PARTYxIDEO,contrast,axioms - persona,acc_nonmodal,0.050520059435364084,0.015143895855102738,0.08434107024947603
+test100,PARTYxIDEO,contrast,axioms - persona,acc_modal,0.010313531353135286,-0.017482331208204256,0.03750748552797923
+test100,PARTYxIDEO,contrast,axioms - persona,C&NM_share,0.022957461174881816,0.006967623337594118,0.03876597397208292
+test100,PARTYxIDEO,contrast,axioms - persona,stereo_follow,-0.04408122833085687,-0.08034107224148196,-0.007299004064608108
+test100,PARTYxIDEO,contrast,axioms - persona,nonmodal_share,0.0,0.0,0.0

@@ -1,0 +1,121 @@
+attr,contrast,variant,outcome,diff,lo,hi,p
+PARTYxIDEO,trained (best_model) - untrained (iter1_1),deviating items,F,-0.014560396427138153,-0.036156292785880104,0.00923719405160324,0.208
+PARTYxIDEO,trained (best_model) - untrained (iter1_1),deviating items,F==1,-0.04093771451312584,-0.1199787017936934,0.04015212574147732,0.292
+PARTYxIDEO,trained (best_model) - untrained (iter1_1),deviating items,grounding,-0.010405374538967982,-0.03175044568867497,0.012310505025238633,0.36
+PARTYxIDEO,trained (best_model) - untrained (iter1_1),deviating items,contradiction_rate,0.004545425844957071,0.0003284735863759744,0.008484882632178368,0.016
+PARTYxIDEO,trained (best_model) - untrained (iter1_1),deviating & model wrong,F,0.017034235501528414,-0.01079059256489165,0.04641597744218259,0.184
+PARTYxIDEO,trained (best_model) - untrained (iter1_1),deviating & model wrong,F==1,0.06124215002249121,-0.04486579418660465,0.1720246318190447,0.22
+PARTYxIDEO,trained (best_model) - untrained (iter1_1),deviating & model wrong,grounding,0.0195591357608744,-0.005268915615908488,0.048991866413622805,0.12
+PARTYxIDEO,trained (best_model) - untrained (iter1_1),deviating & model wrong,contradiction_rate,0.0027660473558024277,-0.003669152737251545,0.008917145724509615,0.332
+PARTYxIDEO,trained (curriculum run 2) - untrained (iter1_1),deviating items,F,-0.018327023552383068,-0.03933911901508868,0.004679398234185912,0.104
+PARTYxIDEO,trained (curriculum run 2) - untrained (iter1_1),deviating items,F==1,-0.04569249566162981,-0.11687476160260665,0.03462527257511705,0.224
+PARTYxIDEO,trained (curriculum run 2) - untrained (iter1_1),deviating items,grounding,-0.014794549640032666,-0.03566022918958858,0.009176526054805244,0.176
+PARTYxIDEO,trained (curriculum run 2) - untrained (iter1_1),deviating items,contradiction_rate,0.0034875658477834847,-0.0006176228340114086,0.007640619929850913,0.1
+PARTYxIDEO,trained (curriculum run 2) - untrained (iter1_1),deviating & model wrong,F,0.009819783302677418,-0.01675534635346905,0.03835506719411479,0.464
+PARTYxIDEO,trained (curriculum run 2) - untrained (iter1_1),deviating & model wrong,F==1,0.041299324341004404,-0.07662315639297643,0.1678259854806819,0.492
+PARTYxIDEO,trained (curriculum run 2) - untrained (iter1_1),deviating & model wrong,grounding,0.012214982270536932,-0.012894901881878357,0.040979717513733825,0.368
+PARTYxIDEO,trained (curriculum run 2) - untrained (iter1_1),deviating & model wrong,contradiction_rate,0.0020854387540302417,-0.0034931032150287084,0.00830804873066429,0.524
+PARTYxIDEO,untrained 4-setup P+A run0 - untrained (iter1_1),deviating items,F,-0.014072552538405073,-0.03636078872364296,0.007239898060487691,0.232
+PARTYxIDEO,untrained 4-setup P+A run0 - untrained (iter1_1),deviating items,F==1,-0.05457227975463263,-0.1312740727871579,0.018578057746535218,0.164
+PARTYxIDEO,untrained 4-setup P+A run0 - untrained (iter1_1),deviating items,grounding,-0.013690068715005837,-0.03639814817560149,0.009160871806358861,0.256
+PARTYxIDEO,untrained 4-setup P+A run0 - untrained (iter1_1),deviating items,contradiction_rate,0.0002297332329016045,-0.0036800716198081293,0.0041302759673842865,0.884
+PARTYxIDEO,untrained 4-setup P+A run0 - untrained (iter1_1),deviating & model wrong,F,0.007804413763118184,-0.018209464389234823,0.03935891912597888,0.528
+PARTYxIDEO,untrained 4-setup P+A run0 - untrained (iter1_1),deviating & model wrong,F==1,0.04838646650411088,-0.07152250946429622,0.1944176639416482,0.432
+PARTYxIDEO,untrained 4-setup P+A run0 - untrained (iter1_1),deviating & model wrong,grounding,0.007633156986288771,-0.016988071777656398,0.037854004701546165,0.516
+PARTYxIDEO,untrained 4-setup P+A run0 - untrained (iter1_1),deviating & model wrong,contradiction_rate,-0.00040030907693073273,-0.007084676227909686,0.006451172221637962,0.928
+PARTYxIDEO,untrained 4-setup P+A run1 - untrained (iter1_1),deviating items,F,-0.017025571218164583,-0.04202527365510946,0.00933116752465981,0.188
+PARTYxIDEO,untrained 4-setup P+A run1 - untrained (iter1_1),deviating items,F==1,-0.033136746806841366,-0.11493607870469126,0.048718565966836325,0.428
+PARTYxIDEO,untrained 4-setup P+A run1 - untrained (iter1_1),deviating items,grounding,-0.01926688067599523,-0.04371902191780978,0.007544166040315914,0.156
+PARTYxIDEO,untrained 4-setup P+A run1 - untrained (iter1_1),deviating items,contradiction_rate,-0.002544066743317468,-0.006130307552757101,0.0012425569492696838,0.22
+PARTYxIDEO,untrained 4-setup P+A run1 - untrained (iter1_1),deviating & model wrong,F,0.003731534149847715,-0.01751141155174397,0.029363125661122282,0.652
+PARTYxIDEO,untrained 4-setup P+A run1 - untrained (iter1_1),deviating & model wrong,F==1,0.017252201785242935,-0.05274970603573063,0.11159969781479552,0.6
+PARTYxIDEO,untrained 4-setup P+A run1 - untrained (iter1_1),deviating & model wrong,grounding,0.005367976545051036,-0.014972937344622572,0.03179976373244707,0.548
+PARTYxIDEO,untrained 4-setup P+A run1 - untrained (iter1_1),deviating & model wrong,contradiction_rate,0.001222466865426748,-0.004267658747353876,0.0068896337551339875,0.652
+PARTYxIDEO,untrained 4-setup P+A run2 - untrained (iter1_1),deviating items,F,-0.011955840488320938,-0.03899454507051903,0.011937560260434531,0.388
+PARTYxIDEO,untrained 4-setup P+A run2 - untrained (iter1_1),deviating items,F==1,-0.021570804430648766,-0.10158125029081709,0.05984756172371012,0.572
+PARTYxIDEO,untrained 4-setup P+A run2 - untrained (iter1_1),deviating items,grounding,-0.012728850244651296,-0.03938092553764166,0.011140425428368066,0.344
+PARTYxIDEO,untrained 4-setup P+A run2 - untrained (iter1_1),deviating items,contradiction_rate,-0.0013673682358584082,-0.00575327421141172,0.0023582248618811835,0.46
+PARTYxIDEO,untrained 4-setup P+A run2 - untrained (iter1_1),deviating & model wrong,F,0.01675550593763761,-0.00997263436553125,0.05081851749016348,0.24
+PARTYxIDEO,untrained 4-setup P+A run2 - untrained (iter1_1),deviating & model wrong,F==1,0.051922764625327765,-0.04752395548214337,0.1846391328044881,0.328
+PARTYxIDEO,untrained 4-setup P+A run2 - untrained (iter1_1),deviating & model wrong,grounding,0.014521639190022735,-0.010560388942469892,0.045680065856569134,0.296
+PARTYxIDEO,untrained 4-setup P+A run2 - untrained (iter1_1),deviating & model wrong,contradiction_rate,-0.003668278165128999,-0.009487504035850695,0.0017804587282005792,0.168
+POLPARTY,trained (best_model) - untrained (iter1_1),deviating items,F,-0.0026379284710474063,-0.02307669968300516,0.018881905251859087,0.84
+POLPARTY,trained (best_model) - untrained (iter1_1),deviating items,F==1,0.007753209645808751,-0.057730875444121074,0.07976510697277735,0.876
+POLPARTY,trained (best_model) - untrained (iter1_1),deviating items,grounding,-0.001099393707201201,-0.02120135471519547,0.020896404689468552,0.972
+POLPARTY,trained (best_model) - untrained (iter1_1),deviating items,contradiction_rate,0.0016545739737554906,-0.002227989888969963,0.005676421314366892,0.452
+POLPARTY,trained (best_model) - untrained (iter1_1),deviating & model wrong,F,0.017977269264190583,-0.0037706245426013204,0.046577215940308406,0.108
+POLPARTY,trained (best_model) - untrained (iter1_1),deviating & model wrong,F==1,0.06994095447657496,-0.036545460362485536,0.1795658986626609,0.184
+POLPARTY,trained (best_model) - untrained (iter1_1),deviating & model wrong,grounding,0.018151021045081032,-0.0037724696595536145,0.04802731238667471,0.12
+POLPARTY,trained (best_model) - untrained (iter1_1),deviating & model wrong,contradiction_rate,0.0003454500353416495,-0.0058063120993057365,0.006811667749541324,0.948
+POLPARTY,trained (curriculum run 2) - untrained (iter1_1),deviating items,F,-0.012388122561421517,-0.03387827612412747,0.010750191121459352,0.268
+POLPARTY,trained (curriculum run 2) - untrained (iter1_1),deviating items,F==1,-0.026517273446250864,-0.10451324886157776,0.05291059174254739,0.468
+POLPARTY,trained (curriculum run 2) - untrained (iter1_1),deviating items,grounding,-0.010905028669104963,-0.03263275350946351,0.01156763103816336,0.332
+POLPARTY,trained (curriculum run 2) - untrained (iter1_1),deviating items,contradiction_rate,0.0011452424090187805,-0.002749828726450385,0.005835684362405516,0.54
+POLPARTY,trained (curriculum run 2) - untrained (iter1_1),deviating & model wrong,F,0.00027115284170915657,-0.025435593717502147,0.033547398943922814,0.924
+POLPARTY,trained (curriculum run 2) - untrained (iter1_1),deviating & model wrong,F==1,-0.003503206159426603,-0.1252021019450211,0.1157843031274259,0.968
+POLPARTY,trained (curriculum run 2) - untrained (iter1_1),deviating & model wrong,grounding,0.00246437519261558,-0.022815473938182184,0.0361019887368066,0.78
+POLPARTY,trained (curriculum run 2) - untrained (iter1_1),deviating & model wrong,contradiction_rate,0.001903763939009704,-0.0034130207465903136,0.008374342454222921,0.52
+POLPARTY,untrained 4-setup P+A run0 - untrained (iter1_1),deviating items,F,-0.005944573514686875,-0.02799364542006084,0.0180500390377999,0.632
+POLPARTY,untrained 4-setup P+A run0 - untrained (iter1_1),deviating items,F==1,-0.012211132241297776,-0.08713616451878958,0.06674673288825594,0.692
+POLPARTY,untrained 4-setup P+A run0 - untrained (iter1_1),deviating items,grounding,-0.007505112015608089,-0.028791189265069125,0.01595633157003031,0.536
+POLPARTY,untrained 4-setup P+A run0 - untrained (iter1_1),deviating items,contradiction_rate,-0.0021348295804122005,-0.005887867980323753,0.001966099404352008,0.34
+POLPARTY,untrained 4-setup P+A run0 - untrained (iter1_1),deviating & model wrong,F,0.016680893374556145,-0.010316892101011459,0.04571655071505414,0.224
+POLPARTY,untrained 4-setup P+A run0 - untrained (iter1_1),deviating & model wrong,F==1,0.09900917117197723,-0.03869309193145127,0.2527754183643209,0.184
+POLPARTY,untrained 4-setup P+A run0 - untrained (iter1_1),deviating & model wrong,grounding,0.013658453706403983,-0.010843115735820566,0.040974370592547646,0.308
+POLPARTY,untrained 4-setup P+A run0 - untrained (iter1_1),deviating & model wrong,contradiction_rate,-0.003256375259198596,-0.01092278970564654,0.004784324705166958,0.504
+POLPARTY,untrained 4-setup P+A run1 - untrained (iter1_1),deviating items,F,-0.0072219259490024,-0.03129555583676704,0.0193958691292158,0.592
+POLPARTY,untrained 4-setup P+A run1 - untrained (iter1_1),deviating items,F==1,-0.014547219957247469,-0.0951863539394467,0.06626562556225488,0.704
+POLPARTY,untrained 4-setup P+A run1 - untrained (iter1_1),deviating items,grounding,-0.011057990597551135,-0.03524926897954358,0.016487262384909867,0.408
+POLPARTY,untrained 4-setup P+A run1 - untrained (iter1_1),deviating items,contradiction_rate,-0.004448564701198773,-0.008681751743014714,0.0001230398086862626,0.056
+POLPARTY,untrained 4-setup P+A run1 - untrained (iter1_1),deviating & model wrong,F,0.012033765354781359,-0.01505734372389133,0.04431371108423859,0.356
+POLPARTY,untrained 4-setup P+A run1 - untrained (iter1_1),deviating & model wrong,F==1,0.05252298148744082,-0.05846323510269805,0.1695788578689922,0.348
+POLPARTY,untrained 4-setup P+A run1 - untrained (iter1_1),deviating & model wrong,grounding,0.00873168559454964,-0.01658879365255719,0.03828426145354543,0.512
+POLPARTY,untrained 4-setup P+A run1 - untrained (iter1_1),deviating & model wrong,contradiction_rate,-0.003990751029576068,-0.01223692527588693,0.0042454924231896275,0.348
+POLPARTY,untrained 4-setup P+A run2 - untrained (iter1_1),deviating items,F,-0.004934589688474165,-0.03100017152681476,0.022270827039131372,0.684
+POLPARTY,untrained 4-setup P+A run2 - untrained (iter1_1),deviating items,F==1,-0.006820941715853934,-0.09166222273918738,0.08341324480040345,0.816
+POLPARTY,untrained 4-setup P+A run2 - untrained (iter1_1),deviating items,grounding,-0.006486005036406589,-0.0331649112152179,0.02025729219141011,0.6
+POLPARTY,untrained 4-setup P+A run2 - untrained (iter1_1),deviating items,contradiction_rate,-0.002265385985951688,-0.006578102197673014,0.0022721066875023765,0.328
+POLPARTY,untrained 4-setup P+A run2 - untrained (iter1_1),deviating & model wrong,F,0.015737082973188054,-0.014695055113521642,0.05121160770031068,0.348
+POLPARTY,untrained 4-setup P+A run2 - untrained (iter1_1),deviating & model wrong,F==1,0.025189937791235732,-0.10166537087878708,0.17083275378525614,0.712
+POLPARTY,untrained 4-setup P+A run2 - untrained (iter1_1),deviating & model wrong,grounding,0.012091129408984186,-0.01801852644442495,0.04439951303278322,0.456
+POLPARTY,untrained 4-setup P+A run2 - untrained (iter1_1),deviating & model wrong,contradiction_rate,-0.0052528943340159505,-0.01349426870486056,0.002477018858066175,0.188
+POLIDEOLOGY,trained (best_model) - untrained (iter1_1),deviating items,F,-0.003648793841606896,-0.02962933729986252,0.02170092583619021,0.792
+POLIDEOLOGY,trained (best_model) - untrained (iter1_1),deviating items,F==1,-0.04993803257547551,-0.12651795069021918,0.02374971519784113,0.232
+POLIDEOLOGY,trained (best_model) - untrained (iter1_1),deviating items,grounding,-0.0012537884882156732,-0.027035659280356054,0.024433889824732654,0.988
+POLIDEOLOGY,trained (best_model) - untrained (iter1_1),deviating items,contradiction_rate,0.0018172425268959888,-0.0020855296450651567,0.006479335394179162,0.416
+POLIDEOLOGY,trained (best_model) - untrained (iter1_1),deviating & model wrong,F,0.01775584522458964,-0.007910295875882609,0.04989373556455593,0.16
+POLIDEOLOGY,trained (best_model) - untrained (iter1_1),deviating & model wrong,F==1,0.05508864427492875,-0.0583651854965342,0.15957331022158158,0.316
+POLIDEOLOGY,trained (best_model) - untrained (iter1_1),deviating & model wrong,grounding,0.018407909619690306,-0.006782110773454984,0.05150037225306198,0.144
+POLIDEOLOGY,trained (best_model) - untrained (iter1_1),deviating & model wrong,contradiction_rate,0.0005908544278451107,-0.006062376836443395,0.008587503313685324,0.844
+POLIDEOLOGY,trained (curriculum run 2) - untrained (iter1_1),deviating items,F,-0.004645491466283829,-0.027816423699997442,0.017292863629507847,0.672
+POLIDEOLOGY,trained (curriculum run 2) - untrained (iter1_1),deviating items,F==1,-0.04575942664842382,-0.12349423554371514,0.033570489074237854,0.208
+POLIDEOLOGY,trained (curriculum run 2) - untrained (iter1_1),deviating items,grounding,-0.0022817091950441248,-0.02603387903732962,0.02037903969336512,0.832
+POLIDEOLOGY,trained (curriculum run 2) - untrained (iter1_1),deviating items,contradiction_rate,0.001617628549567777,-0.002405652647594353,0.00635742984954771,0.448
+POLIDEOLOGY,trained (curriculum run 2) - untrained (iter1_1),deviating & model wrong,F,0.0264683367741946,0.00025603049717695095,0.059988136739612306,0.048
+POLIDEOLOGY,trained (curriculum run 2) - untrained (iter1_1),deviating & model wrong,F==1,0.04730172217810341,-0.07860249318011223,0.1645698517859283,0.52
+POLIDEOLOGY,trained (curriculum run 2) - untrained (iter1_1),deviating & model wrong,grounding,0.028709692523283696,0.0030285735358197203,0.062105984246812615,0.028
+POLIDEOLOGY,trained (curriculum run 2) - untrained (iter1_1),deviating & model wrong,contradiction_rate,0.0019650440835872213,-0.004213315116493176,0.009880312952612788,0.548
+POLIDEOLOGY,untrained 4-setup P+A run0 - untrained (iter1_1),deviating items,F,-0.005905335170580769,-0.026659462951674075,0.017678535257078007,0.616
+POLIDEOLOGY,untrained 4-setup P+A run0 - untrained (iter1_1),deviating items,F==1,-0.038350293492926284,-0.12914616748516225,0.04580953671871877,0.384
+POLIDEOLOGY,untrained 4-setup P+A run0 - untrained (iter1_1),deviating items,grounding,-0.007109723611831459,-0.0277023443491593,0.016321061767408204,0.56
+POLIDEOLOGY,untrained 4-setup P+A run0 - untrained (iter1_1),deviating items,contradiction_rate,-0.0019675853887268476,-0.007687118489718468,0.004442681054490833,0.54
+POLIDEOLOGY,untrained 4-setup P+A run0 - untrained (iter1_1),deviating & model wrong,F,0.005908510856211307,-0.020558990983607684,0.03358894007087322,0.644
+POLIDEOLOGY,untrained 4-setup P+A run0 - untrained (iter1_1),deviating & model wrong,F==1,0.10013694628174605,-0.050229708227086556,0.23119436699431736,0.156
+POLIDEOLOGY,untrained 4-setup P+A run0 - untrained (iter1_1),deviating & model wrong,grounding,-0.0008950746621520268,-0.02564415911897311,0.02651372683498445,0.972
+POLIDEOLOGY,untrained 4-setup P+A run0 - untrained (iter1_1),deviating & model wrong,contradiction_rate,-0.00711467132328964,-0.015149119871150696,0.0021484449298213477,0.148
+POLIDEOLOGY,untrained 4-setup P+A run1 - untrained (iter1_1),deviating items,F,0.009971763747046032,-0.014656889501603619,0.0373183392676177,0.44
+POLIDEOLOGY,untrained 4-setup P+A run1 - untrained (iter1_1),deviating items,F==1,0.028654508856581863,-0.056141343016895724,0.11311284725163959,0.54
+POLIDEOLOGY,untrained 4-setup P+A run1 - untrained (iter1_1),deviating items,grounding,0.004522053681627802,-0.019100215834600122,0.03234868739375477,0.712
+POLIDEOLOGY,untrained 4-setup P+A run1 - untrained (iter1_1),deviating items,contradiction_rate,-0.006256817494746231,-0.01192507752373359,-0.00015212464961382506,0.048
+POLIDEOLOGY,untrained 4-setup P+A run1 - untrained (iter1_1),deviating & model wrong,F,0.03402686832601743,0.009056089252494121,0.0618553607879118,0.008
+POLIDEOLOGY,untrained 4-setup P+A run1 - untrained (iter1_1),deviating & model wrong,F==1,0.14163723809713774,0.033531047208005225,0.25335737459814384,0.008
+POLIDEOLOGY,untrained 4-setup P+A run1 - untrained (iter1_1),deviating & model wrong,grounding,0.026431543700704233,0.0021991031674279335,0.05449178135772518,0.04
+POLIDEOLOGY,untrained 4-setup P+A run1 - untrained (iter1_1),deviating & model wrong,contradiction_rate,-0.007897593598452981,-0.015862628385810935,-0.0004922959415252552,0.044
+POLIDEOLOGY,untrained 4-setup P+A run2 - untrained (iter1_1),deviating items,F,0.0034560787133009014,-0.02304464981731113,0.027991971400109894,0.804
+POLIDEOLOGY,untrained 4-setup P+A run2 - untrained (iter1_1),deviating items,F==1,0.012377862460081074,-0.06797962630803327,0.08368900227315611,0.724
+POLIDEOLOGY,untrained 4-setup P+A run2 - untrained (iter1_1),deviating items,grounding,0.00030514602866142833,-0.025427262358443208,0.02428934700753067,0.976
+POLIDEOLOGY,untrained 4-setup P+A run2 - untrained (iter1_1),deviating items,contradiction_rate,-0.0041949976709180934,-0.009558695961648435,0.0013499774451469111,0.124
+POLIDEOLOGY,untrained 4-setup P+A run2 - untrained (iter1_1),deviating & model wrong,F,0.020198242422637437,-0.008125794122803481,0.05192250004812109,0.152
+POLIDEOLOGY,untrained 4-setup P+A run2 - untrained (iter1_1),deviating & model wrong,F==1,0.08329510400335502,-0.02530775608544837,0.20824788803428523,0.14
+POLIDEOLOGY,untrained 4-setup P+A run2 - untrained (iter1_1),deviating & model wrong,grounding,0.015493727899542318,-0.011438119012054089,0.047445862330676235,0.26
+POLIDEOLOGY,untrained 4-setup P+A run2 - untrained (iter1_1),deviating & model wrong,contradiction_rate,-0.0055170592168693735,-0.012857146707508356,0.0024695161496397855,0.176

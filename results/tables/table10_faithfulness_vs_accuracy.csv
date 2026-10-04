@@ -1,0 +1,3 @@
+model,faithful_mean_distance,unfaithful_mean_distance,n_faithful,n_unfaithful,r_respondent_F_vs_accuracy
+untrained,1.228,1.133,394,83,-0.08
+curriculum,1.218,1.215,385,79,-0.043

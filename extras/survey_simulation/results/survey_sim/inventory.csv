@@ -1,0 +1,34 @@
+model,condition,run,file,respondents,parse_rate,correctness_agreement,has_F
+Qwen3-8B (untrained),baseline,0,responses_reward_0to500_0.json,500,0.9998666666666667,0.9949850908105178,True
+Qwen3-8B (untrained),persona,0,responses_reward_0to500_0.json,500,1.0,1.0,True
+Qwen3-8B (untrained),axioms,0,responses_reward_0to500_0.json,500,1.0,0.999864480281881,True
+Qwen3-8B (untrained),persona+axioms,0,responses_reward_0to500_0.json,500,1.0,1.0,True
+Qwen3-8B (untrained),baseline,1,responses_reward_0to500_1.json,500,1.0,0.9956633690201925,True
+Qwen3-8B (untrained),persona,1,responses_reward_0to500_1.json,500,1.0,1.0,True
+Qwen3-8B (untrained),axioms,1,responses_reward_0to500_1.json,500,1.0,1.0,True
+Qwen3-8B (untrained),persona+axioms,1,responses_reward_0to500_1.json,500,1.0,1.0,True
+Qwen3-8B (untrained),baseline,2,responses_reward_0to500_2.json,500,0.9998666666666667,0.9964760097587422,True
+Qwen3-8B (untrained),persona,2,responses_reward_0to500_2.json,500,1.0,0.999864480281881,True
+Qwen3-8B (untrained),axioms,2,responses_reward_0to500_2.json,500,1.0,0.999864480281881,True
+Qwen3-8B (untrained),persona+axioms,2,responses_reward_0to500_2.json,500,1.0,1.0,True
+32B thinking (Qwen3-32B?),baseline,0,responses_reward_0to500_32B_labeled.json,500,1.0,0.999864480281881,True
+32B thinking (Qwen3-32B?),persona,0,responses_reward_0to500_32B_labeled.json,500,1.0,1.0,True
+32B thinking (Qwen3-32B?),axioms,0,responses_reward_0to500_32B_labeled.json,500,1.0,0.999864480281881,True
+32B thinking (Qwen3-32B?),persona+axioms,0,responses_reward_0to500_32B_labeled.json,500,1.0,1.0,True
+32B thinking (Qwen3-32B?),relevant-axioms,0,responses_reward_0to500_32B_labeled.json,500,1.0,1.0,True
+32B-instruct (ID unverified),baseline,0,final_created_llama8B_0to500_32B_instruct.json,500,1.0,,False
+32B-instruct (ID unverified),persona,0,final_created_llama8B_0to500_32B_instruct.json,500,1.0,,False
+32B-instruct (ID unverified),axioms,0,final_created_llama8B_0to500_32B_instruct.json,500,1.0,,False
+32B-instruct (ID unverified),persona+axioms,0,final_created_llama8B_0to500_32B_instruct.json,500,1.0,,False
+32B-instruct (ID unverified),relevant-axioms,0,final_created_llama8B_0to500_32B_instruct.json,500,1.0,,False
+Llama-70B (ID unverified),baseline,0,final_combined_llama70B.json,500,0.998,,False
+Llama-70B (ID unverified),persona,0,final_combined_llama70B.json,500,0.9992,,False
+Llama-70B (ID unverified),axioms,0,final_combined_llama70B.json,500,1.0,,False
+Llama-70B (ID unverified),persona+axioms,0,final_combined_llama70B.json,500,0.9998666666666667,,False
+Distill-Llama-70B (ID unverified),baseline,0,final_combined_distilled_llama70B.json,500,0.9992,,False
+Distill-Llama-70B (ID unverified),persona,0,final_combined_distilled_llama70B.json,500,1.0,,False
+Distill-Llama-70B (ID unverified),axioms,0,final_combined_distilled_llama70B.json,500,0.998,,False
+Distill-Llama-70B (ID unverified),persona+axioms,0,final_combined_distilled_llama70B.json,500,0.9998666666666667,,False
+Qwen3-8B untrained (iter1_1),persona+axioms,0,responses_reward_eval_full_Qwen_iter1_1.json,100,0.9953333333333333,0.9993215739484396,True
+Qwen3-8B trained (best_model),persona+axioms,0,best_responses_reward_for_best_model.json,100,0.9986666666666667,1.0,True
+Qwen3-8B trained (curriculum run 2),persona+axioms,0,final_trained_results/responses_reward_eval_full_Qwen_iter4_curriculum (1).json,100,0.9993333333333333,1.0,True

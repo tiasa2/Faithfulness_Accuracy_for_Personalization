@@ -1,0 +1,11 @@
+demographic,groups,variance_untrained,variance_curriculum,sd_untrained,sd_curriculum,range_untrained,range_curriculum
+Age,4,12.05,4.05,3.47,2.01,7.67,4.57
+Are they a citizen?,2,490.26,202.7,22.14,14.24,31.31,20.13
+Education,6,22.56,17.75,4.75,4.21,12.22,8.89
+Income,5,3.96,17.66,1.99,4.2,4.85,10.41
+Marital Status,6,20.6,29.56,4.54,5.44,12.33,11.9
+Race,4,109.83,52.31,10.48,7.23,22.5,16.89
+Region,4,14.43,12.32,3.8,3.51,7.84,8.04
+Religion,6,39.27,21.2,6.27,4.6,13.33,13.14
+Strength of political ideology,5,14.2,2.64,3.77,1.62,10.26,4.27
+sex,2,9.95,2.15,3.15,1.47,4.46,2.07

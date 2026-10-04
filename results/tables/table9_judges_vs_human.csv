@@ -1,0 +1,6 @@
+judge,spearman_vs_human,queries
+Qwen3-32B (ours),0.788,45
+GPT-5,0.569,44
+GPT-5-mini,0.567,34
+GPT-4o-mini,0.224,18
+GLM-4.7-Flash,0.615,45

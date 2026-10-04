@@ -1,0 +1,5 @@
+setup,nli_faithfulness,proposed_metric
+Base,0.724,0.314
+Persona,0.778,0.358
+Axioms,0.632,0.927
+Persona_and_Axioms,0.689,0.894

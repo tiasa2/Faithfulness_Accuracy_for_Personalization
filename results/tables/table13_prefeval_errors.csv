@@ -1,0 +1,5 @@
+condition,fixed,fixed_inconsistent,fixed_hallucinated,fixed_unaware,fixed_unhelpful,broken,broken_inconsistent,broken_hallucinated,broken_unaware,broken_unhelpful,net
+"Reminder, 10 turns",87,46,40,0,1,69,35,33,1,0,18
+"Reminder, 0 turns",95,83,12,0,0,85,76,8,1,0,10
+"No reminder, 10 turns",31,1,1,28,1,25,2,1,22,0,6
+"No reminder, 0 turns",102,46,13,43,0,92,30,11,50,1,10

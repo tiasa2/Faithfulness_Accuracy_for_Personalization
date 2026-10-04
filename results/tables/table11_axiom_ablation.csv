@@ -1,0 +1,6 @@
+condition,accuracy
+all,0.5113
+minus_relevant_human,0.4727
+minus_relevant_gpt5,0.4927
+minus_random,0.5147
+only_relevant_human,0.5013

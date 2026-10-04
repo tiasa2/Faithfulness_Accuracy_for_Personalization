@@ -1,0 +1,16 @@
+Y,B,cut,B0,B1,train_V,train_share_B1,n_train
+PP5a_W49,PP6c_W49,2,"Very comfortable, Somewhat comfortable","Not too comfortable, Not comfortable at all",0.3795979640912121,0.491183879093199,397
+PP6c_W49,PP5a_W49,2,"Very confident, Somewhat confident","Not too confident, Not confident at all",0.38111200090353026,0.5919395465994962,397
+SHARE1_W49,PP5a_W49,2,"Very confident, Somewhat confident","Not too confident, Not confident at all",0.15712870053161673,0.5904522613065326,398
+HAPPENf_W41,FTRWORRYd_W41,1,Very worried,"Fairly worried, Not too worried, Not at all worried",0.2477705318483538,0.5391061452513967,358
+FTRWORRYd_W41,HAPPENf_W41,1,The public education system will improve,The public education system will get worse,0.25856744226790407,0.5893854748603352,358
+LEGALIMG_W41,RACESURV6_W43,1,People seeing racial discrimination where it really does not exist,People not seeing racial discrimination where it really does exist,0.2638221034158291,0.4923469387755102,392
+SOURCESKEPc_W45,FTRWORRYd_W41,1,Very worried,"Fairly worried, Not too worried, Not at all worried",0.21766129905210044,0.5440806045340051,397
+INFOOWNe_W45,WATCHDOG_1_W45,1,Keep political leaders from doing their job,Keep political leaders from doing things that shouldn't be done,0.14003483413197337,0.6892950391644909,383
+WATCHDOG_1_W45,LEGALIMG_W41,2,"Increased, Maintained at current levels",Decreased,0.1710960312836233,0.2997416020671835,387
+SCM5e_W42,HAPPENf_W41,1,The public education system will improve,The public education system will get worse,0.1293553039868417,0.5929203539823009,339
+POP2_W42,FTRWORRYd_W41,1,Very worried,"Fairly worried, Not too worried, Not at all worried",0.25682105949882456,0.5463659147869674,399
+POP3_W42,RACATTN_W43,2,"Too little attention, About the right amount of attention",Too much attention,0.220909017654637,0.5088161209068011,397
+RACESURV6_W43,RACATTN_W43,2,"Too little attention, About the right amount of attention",Too much attention,0.5521305576680636,0.5038167938931297,393
+RACESURV7_W43,RACESURV6_W43,1,People seeing racial discrimination where it really does not exist,People not seeing racial discrimination where it really does exist,0.18415422695084052,0.49238578680203043,394
+RACATTN_W43,RACESURV6_W43,1,People seeing racial discrimination where it really does not exist,People not seeing racial discrimination where it really does exist,0.5769467318520747,0.4910941475826972,393

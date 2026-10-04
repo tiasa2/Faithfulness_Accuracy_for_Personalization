@@ -1,0 +1,25 @@
+{
+  "filepath": "responses_reward_eval_full_sft_lr1e-5.json",
+  "samples_analyzed": 1500,
+  "faithfulness": {
+    "criterion": "reward == 1",
+    "mean": 0.9206365578865578,
+    "median": 1.0,
+    "std": 0.180813357919151,
+    "min": 0.0,
+    "max": 1.0
+  },
+  "correctness": {
+    "mean": 0.506,
+    "median": 1.0,
+    "std": 0.5001307367437945,
+    "min": 0,
+    "max": 1
+  },
+  "quadrant_counts": {
+    "correct_faithful": 548,
+    "correct_unfaithful": 211,
+    "incorrect_faithful": 509,
+    "incorrect_unfaithful": 232
+  }
+}

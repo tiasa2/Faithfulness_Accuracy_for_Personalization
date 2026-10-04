@@ -1,0 +1,15 @@
+# analysis (CPU): reproduce tables and figures
+pandas
+matplotlib
+# generation and judging (GPU)
+vllm>=0.10
+transformers
+torch
+# training
+trl
+accelerate
+datasets
+pyyaml
+# API judges (Table 9 second judges, PrefEval)
+openai
+anthropic

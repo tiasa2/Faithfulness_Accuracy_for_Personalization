@@ -1,0 +1,5 @@
+condition,untrained,curriculum,delta_pp,ci_low,ci_high,fixed,broken,mcnemar_p
+"Reminder, 10 turns",0.536,0.558,2.2,-0.3,4.7,91,69,0.097
+"Reminder, 0 turns",0.668,0.677,0.9,-1.8,3.6,100,91,0.563
+"No reminder, 10 turns",0.079,0.081,0.2,-1.0,1.4,21,19,0.875
+"No reminder, 0 turns",0.471,0.484,1.3,-1.4,4.0,98,85,0.375

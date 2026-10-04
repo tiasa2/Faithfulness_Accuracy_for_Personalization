@@ -1,0 +1,5 @@
+batch,metric,pearson,spearman
+1,proposed metric,0.629,0.675
+1,NLI faithfulness,-0.116,-0.083
+2,proposed metric,0.779,0.835
+2,NLI faithfulness,-0.15,-0.155

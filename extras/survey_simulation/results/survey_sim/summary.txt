@@ -1,0 +1,85 @@
+SURVEY-SIMULATION ANALYSIS — SUMMARY (generated 2026-10-02)
+Script: survey_simulation_analysis.py (--boot 500 --splits 100, seed 0; ~10 min on a laptop)
+Figures: survey_simulation_figures.py -> survey_sim/figures/fig1..fig5
+All CIs: respondent-clustered bootstrap, basic (bias-corrected) intervals; FDR = Benjamini-Hochberg.
+
+STEP 0 — INVENTORY (inventory.csv)
+  Untrained, 4 conditions x 500 respondents:
+    Qwen3-8B, 3 sampling runs, judged F     final_trained_results/responses_reward_0to500_{0,1,2}.json
+    32B thinking (Qwen3-32B?), +relevant-axioms condition, judged F   responses_reward_0to500_32B_labeled.json
+    32B instruct, Llama-70B, Distill-Llama-70B — answers only, MODEL IDs NOT RECORDED IN REPO (confirm)
+  Trained vs untrained, 100 held-out respondents, persona+axioms ONLY:
+    untrained iter1_1; trained best_model; second trained run (curriculum (1)); plus the 3 untrained
+    4-setup runs restricted to the same 100 people as a run-to-run noise reference.
+  MISSING: trained Qwen3-8B under baseline / persona / axioms-only. Cost to generate: 1500 items x 3
+    conditions = 4.5k generations (~15-20 min vLLM on 1 H200) + Qwen3-32B judging of the axioms-only
+    arm (~20-30 min) -> about 1 GPU-hour, no API cost. Without it, the training analysis can only speak
+    to persona+axioms.
+  Data checks: answers parse 99.5-100%; parsed answer == real answer agrees with the stored correctness
+    label on >=99.65% of items (validates option mapping and respondent alignment); per-condition F
+    rebuilt from per-axiom labels matches stored rewards on 67,500/67,500 (the stored
+    contradiction_rate field in the 4-setup files is misaligned and was not used).
+  F for baseline/persona conditions is not meaningful (the judge scores against axioms that were
+    not in the prompt), so Analysis 3 uses axioms / persona+axioms / relevant-axioms only.
+
+(1) CLAIMS THE DATA CLEARLY SUPPORTS
+  a. Every LLM condition compresses the response distribution. Qwen3-8B question-level variance
+     ratio (pred/real): baseline .20, persona .60, axioms .47, persona+axioms .47 (real split-half 1.00).
+     Distribution match (1 - EMD/(K-1), split-half): .69 / .83 / .78 / .78 vs real-vs-real ceiling .97.
+     All conditions are far below the ceiling and below both reference baselines (group modal .87,
+     LR-on-other-answers .93). Stable across the 3 runs (differences <= .01).
+  b. Demographic personas collapse respondents WITHIN political groups more than axioms do. Within
+     party x ideology groups, the variance ratio is higher for axioms than for the persona in all 5 models:
+     Qwen3-8B +.20 [+.13,+.22], 32B-thinking +.25, 32B-instruct +.29, Llama-70B +.11, Distill +.39
+     (all q <= .02); distribution match also higher in 4/5 models (+.013 to +.067). Persona+axioms
+     sits in between. This is the Bisbee mechanism, in the political dimension where personas
+     carry the stereotype.
+  c. The persona replicates demographic regression coefficients better than axioms (expected:
+     only the persona shows the demographics). Split-half like-for-like comparison: persona − axioms
+     slope +.18 to +.24 and correlation +.12 to +.19 in all 5 models (CIs exclude 0 except Distill corr).
+  d. Training (curriculum DPO) does not change the response distribution. Trained − untrained on
+     the test 100: question-level match −.004 [−.011,+.003], within-group variance ratio +.012
+     [−.017,+.041], modal excess −.006 [−.016,+.007]; a second trained run agrees; all differences are
+     smaller than the gap between two untrained runs (run1 − run0 match +.010 [+.003,+.020]).
+
+(2) WEAK OR NULL RESULTS
+  a. Overall (not within-political-group) the persona matches the real distribution BETTER than axioms
+     for 4/5 models: Qwen3-8B question-level match −.049 [−.059,−.042] and variance ratio −.13 for
+     axioms vs persona; within non-political groups (gender, religion, region…) persona also preserves
+     more variance (.58-.62 vs .46-.49). Only Distill-Llama-70B favours axioms on the group-pooled metrics (and even it is worse on ordinal question-level match). So the
+     axioms advantage is specific to within-political-group dispersion, not a general distributional win.
+  b. Coefficient inflation under personas. After correcting for noise in the real coefficients
+     (reliability ~.33 at n=500), persona slopes are ~1.4-1.8 (inflation, as in Bisbee), axioms
+     ~.6-.9, persona+axioms ~1.0-1.4, in all 5 models. The correction's interval reflects only
+     reliability uncertainty and assumes classical errors-in-variables. Directional, not a clean estimate.
+  c. Modal collapse is small in every LLM condition (excess modal share −.07 to +.06) and much
+     smaller than the group-modal baseline (+.20). The models compress variance without
+     systematically landing on the REAL group mode. Among wrong answers to deviating respondents
+     (ordinal Qs), 44-71% are the group mode vs 37% chance, in every condition incl. no-persona (44-59%);
+     where group mode != population mode (~230 items) the persona does not pull toward the group
+     mode more than axioms (Qwen3-8B .39 vs .48). Descriptive, no CI.
+  d. Analysis 3 is null / reversed. On deviating items, predicting the group mode is NOT associated
+     with lower faithfulness once question fixed effects are included: axioms coef ≈ 0 in all 3
+     Qwen runs and 32B; persona+axioms (Qwen3-8B, deviating & wrong) is POSITIVE (+.015 to +.023,
+     q<.001, all 3 runs; not replicated in 32B). Contradiction rate: null everywhere. The raw gap
+     (F .93 if mode vs .98 if not) is entirely question composition.
+  e. Analysis 4 regression and Analysis 3 on the test set are uninformative: real-coefficient
+     split-half reliability at n=100 is ~.06, so any training contrast on coefficients is noise.
+
+(3) WHAT NOT TO CLAIM
+  - Not "axioms preserve the real response distribution better than personas". Overall they do
+    not, for 4 of 5 models. The defensible claim is narrower: within political groups.
+  - Not "training reduces collapse / improves distributional fidelity". It is null, with a run-to-run
+    reference that is as large as the training difference.
+  - Not "unfaithful reasoning goes with stereotyped/modal answers". Within question it does not; if
+    anything the reverse in one model.
+  - Not "LLMs collapse to the group modal answer". They compress variance; their modal share is
+    close to real; the group-modal baseline is far more collapsed.
+  - Not raw coefficient slopes < 1 as "compression": real coefficients are noisy (split-half r = .20
+    at n=250), which attenuates the slope regardless of the model.
+  - Not anything about the trained model under persona-only or axioms-only conditions (never generated).
+  - Secondary-model names (32B instruct, Llama-70B, Distill-Llama-70B) are unverified.
+
+Interval method note: plug-in EMD/JS/entropy and coefficient correlations are biased under
+respondent resampling; distribution metrics use basic bootstrap intervals; regression comparisons use
+paired split-halves (a2_condition_contrasts.csv) instead of bootstrap CIs.

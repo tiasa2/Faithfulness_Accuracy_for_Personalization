@@ -1,0 +1,8 @@
+.env
+.judge_cache_*.jsonl
+/runs/
+/PrefEval/
+__pycache__/
+*.pyc
+.DS_Store
+wandb/

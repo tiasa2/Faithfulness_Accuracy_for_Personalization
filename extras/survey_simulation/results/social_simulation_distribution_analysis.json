@@ -1,0 +1,108 @@
+{
+  "alignment_match_untrained": 1500,
+  "alignment_match_trained": 1500,
+  "unparseable_untrained": 7,
+  "unparseable_trained": 2,
+  "min_group_size": 5,
+  "n_valid_cells": 165,
+  "n_respondents": 100,
+  "js_units": "nats",
+  "overall": {
+    "n_cells": 165,
+    "tv_untr": 0.3285618625343458,
+    "tv_trn": 0.33084556915079577,
+    "js_untr": 0.12055642089732045,
+    "js_trn": 0.12223453919358959,
+    "wass_untr": 0.5064743308441266,
+    "wass_trn": 0.5214770092175479,
+    "modal_human": 0.5835946945897778,
+    "modal_untr": 0.7923940348724369,
+    "modal_trn": 0.7919629342849158,
+    "ent_human": 0.824995237919541,
+    "ent_untr": 0.39270077645367574,
+    "ent_trn": 0.39273562980977744
+  },
+  "per_grouping": {
+    "Political Affiliation": {
+      "n_cells": 60,
+      "tv_untr": 0.331968579114477,
+      "tv_trn": 0.327138679731559,
+      "js_untr": 0.12203619598191835,
+      "js_trn": 0.12148825704160679,
+      "wass_untr": 0.5090318307858944,
+      "wass_trn": 0.5098259588923287,
+      "modal_human": 0.5710130788381563,
+      "modal_untr": 0.7964491269696379,
+      "modal_trn": 0.7903210098643537,
+      "ent_human": 0.8438024593299704,
+      "ent_untr": 0.3869797856828589,
+      "ent_trn": 0.3944400686700317
+    },
+    "Strength of political ideology": {
+      "n_cells": 60,
+      "tv_untr": 0.3328368640515115,
+      "tv_trn": 0.33778502733300814,
+      "js_untr": 0.11714730828558502,
+      "js_trn": 0.11929815093016281,
+      "wass_untr": 0.5128981272810673,
+      "wass_trn": 0.5245510576839978,
+      "modal_human": 0.582306261179333,
+      "modal_untr": 0.7955598722265386,
+      "modal_trn": 0.7947937497937494,
+      "ent_human": 0.8341257866680337,
+      "ent_untr": 0.4005147307853816,
+      "ent_trn": 0.40127092775872625
+    },
+    "Race": {
+      "n_cells": 45,
+      "tv_untr": 0.3183195717379493,
+      "tv_trn": 0.3265354774668276,
+      "js_untr": 0.12312887093350382,
+      "js_trn": 0.1271447664141357,
+      "wass_untr": 0.49449926900584784,
+      "wass_trn": 0.5329130116959064,
+      "modal_human": 0.6020880934725328,
+      "modal_untr": 0.7827661289373669,
+      "modal_trn": 0.7903777461672198,
+      "ent_human": 0.7877448777076442,
+      "ent_untr": 0.3899101583724899,
+      "ent_trn": 0.37908264739750686
+    }
+  },
+  "tv_winrate": {
+    "trained_closer": 33,
+    "untrained_closer": 40,
+    "tie": 92,
+    "n": 165,
+    "trained_win_frac": 0.2
+  },
+  "js_winrate": {
+    "trained_closer": 34,
+    "untrained_closer": 48,
+    "tie": 83,
+    "n": 165,
+    "trained_win_frac": 0.20606060606060606
+  },
+  "group_sizes": {
+    "Political Affiliation": {
+      "Republican": 37,
+      "Other": 10,
+      "Independent": 19,
+      "Democrat": 34
+    },
+    "Strength of political ideology": {
+      "Moderate": 39,
+      "Liberal": 14,
+      "Conservative": 30,
+      "Very liberal": 3,
+      "Very conservative": 13,
+      "?": 1
+    },
+    "Race": {
+      "White": 76,
+      "Black": 15,
+      "Hispanic": 8,
+      "Asian": 1
+    }
+  }
+}
